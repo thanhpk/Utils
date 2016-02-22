@@ -13,8 +13,13 @@ function createBuf(dbname, n)
 	var genders = ["male", "female", "third"];
 
 	var c = 0;
-	for (var i = 0; i < n ; i++)
-	{
+	var u = 0;
+	function justDo(){
+		u++;
+		if(u < n)
+		{
+			setTimeout(justDo)
+		}
 
 		var person = {
 			name: generateName(),
@@ -33,8 +38,12 @@ function createBuf(dbname, n)
 				{
 					c++;
 					console.log(c + '/' + n + " (" + Math.floor(c/n* 100) + "%)");
+					delete person;
+				}
+			});
+		})
+	};
 
-				}});
-			})
-	}
+	justDo();
+	
 }
