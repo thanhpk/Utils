@@ -5,16 +5,17 @@ var ten = ['Mỹ','Duệ','Tăng','Cường','Tráng','Liên','Huy','Phát','B�
 return ho[Math.floor(Math.random()*100) % ho.length] + ' ' + ten[Math.floor(Math.random()*100) % ten.length]
 }
 
-function generatePerson(n)
+function createBuf(dbname, n)
 {
 	var languages = ["vn", "en", "jp", "kr"];
 	var countries = ["Vietname", "France", "Japan"];
 
 	var genders = ["male", "female", "third"];
-	var persons = [];
+
+	var c = 0;
 	for (var i = 0; i < n ; i++)
 	{
-		console.log(i);
+
 		var person = {
 			name: generateName(),
 			age: Math.floor(Math.random()*1000) % 50 + 15,
@@ -24,11 +25,16 @@ function generatePerson(n)
 			type: "person",
 			language: languages[Math.floor(Math.random()*1000) % languages.length],
 			country: countries[Math.floor(Math.random()*1000) % countries.length]
+
 		};
+		$.get('/_uuids',function(data){
+				uuid = JSON.parse(data).uuids[0];
+				$.ajax({url:'/' + dbname + '/' + uuid, type:"PUT", data:JSON.stringify( person), success: function()
+				{
+					c++;
+					console.log(c + '/' + n + " (" + Math.floor(c/n* 100) + "%)");
 
-		persons.push(person);
-
+				}});
+			})
 	}
-	return persons;
-
 }
