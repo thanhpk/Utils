@@ -5,6 +5,17 @@ var ten = ['Mỹ','Duệ','Tăng','Cường','Tráng','Liên','Huy','Phát','B�
 return ho[Math.floor(Math.random()*100) % ho.length] + ' ' + ten[Math.floor(Math.random()*100) % ten.length]
 }
 
+
+function randomNumber(a,b)
+{
+	if(b == undefined) {
+		b = a - 1;
+		a = 0;
+	}
+	var delta = b - a + 1;
+	return Math.floor(Math.random()*delta) + a
+}
+
 function generatePerson(n)
 {
 	var languages = ["vn", "en", "jp", "kr"];
@@ -17,13 +28,13 @@ function generatePerson(n)
 		console.log(i);
 		var person = {
 			name: generateName(),
-			age: Math.floor(Math.random()*1000) % 50 + 15,
-			iq: Math.floor(Math.random()* 1000) % 120 + 50,
-			height: Math.floor(Math.random()* 1000) % 90 + 120,
-			gender: genders[Math.floor(Math.random()*1000) % genders.length],
+			age: randomNumber(15,60),
+			iq: randomNumber(120,170),
+			height: randomNumber(120,210),
+			gender: genders[randomNumber(genders.length)],
 			type: "person",
-			language: languages[Math.floor(Math.random()*1000) % languages.length],
-			country: countries[Math.floor(Math.random()*1000) % countries.length]
+			language: languages[randomNumber( languages.length)],
+			country: countries[randomNumber( countries.length)]
 		};
 
 		persons.push(person);
