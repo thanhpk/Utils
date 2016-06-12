@@ -3,13 +3,15 @@ var N = 22;
 //this function return time range between two date 
 function getTimeRange(starttime, endtime)
 {
-		var me = this;
-		var ret = [];
+	if(starttime > endtime) throw "wrogn date input";
+	
+	var me = this;
+	var ret = [];
 
-		var daydiff = Math.floor((starttime - endtime) / 86400);
-		if (daydiff == 0) return [endtime - 86400, endtime];
-		if (daydiff == 1) return [starttime, endtime];
-		if (daydiff < N)
+	var daydiff = Math.floor((endtime - starttime) / 86400);
+	if (daydiff == 0) return [endtime - 86400, endtime];
+	if (daydiff == 1) return [starttime, endtime];
+	if (daydiff < N)
 		{
 			ret.push(starttime);
 			var st = starttime;
