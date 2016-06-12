@@ -24,7 +24,7 @@ function getTimeRange(starttime, endtime)
 
 		var d = Math.ceil((daydiff - 2) / (N - 2));
 		ret.push(starttime);
-		for (var i = 1; i < me.N - 1; i++)
+		for (var i = 1; i < N - 1; i++)
 			ret.push(starttime + i * d * 86400);
 		ret.push(endtime);
 		return ret;
