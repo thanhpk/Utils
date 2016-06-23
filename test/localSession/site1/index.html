@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+var data = sessionStorage.getItem('key');
+if(data == undefined) 
+	{ 	data = 0;
+		alert(data);
+}
+else
+{
+	data = parseInt(data) + 1;
+	alert(data);	
+}
+sessionStorage.setItem('key', data);
+</script>
+</head>
+<body>
+<a href="//site.me.com" >Site</a>
+<a href="//site2.me.com" >Site 2</a>
+</body>
+
+</html>
