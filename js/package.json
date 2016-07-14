@@ -1,0 +1,21 @@
+{
+  "name": "benchnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bench1.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanhpk",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "querystring": "^0.2.0",
+    "trycatch": "^1.5.21",
+    "url": "^0.11.0"
+  }
+}
