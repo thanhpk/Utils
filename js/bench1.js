@@ -44,23 +44,18 @@ function HttpApi () {
 	//read + create file fibonancy
 	this.test2 = function(res)
 	{
+		var me = this;
 		var r = this.getRandom(0, 1000);
 		fs.stat(`./tmp/tmp${r}` , function(err, stat)
 		{
 			if(err){
-				res.statusCode=500;
-				res.end('here53');
-				throw err;
-			}
-			if(!stat.isFile())
-			{
 				fs.writeFile(`./tmp/tmp${r}`, 20, function(err) {
     				if(err) {
     					res.statusCode=500;
 						res.end('here62');
 						throw err;
 					}
-					var f = this.fibonancy(20);
+					var f = me.fibonancy(20);
 					res.statusCode= 200;
 					res.end(f + "");
 				});
@@ -74,7 +69,7 @@ function HttpApi () {
 						throw err;
 					}
   					n = n + ""; // ensure that there is no optimization here
-  					var f = this.fibonancy(20);
+  					var f = me.fibonancy(20);
 					res.statusCode= 200;
 					res.end(f+"");
 				});
