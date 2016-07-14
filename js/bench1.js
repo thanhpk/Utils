@@ -12,7 +12,7 @@ function HttpApi () {
 	{
 		if(x==0) return 0;
 		if(x==1) return 1;
-		return this.fibonancy(x-1) + this.fibonancy(x-1);	
+		return this.fibonancy(x-1) + this.fibonancy(x-2);	
 	}
 
 
@@ -36,7 +36,7 @@ function HttpApi () {
 	//fibinancy only
 	this.test1= function(res)
 	{
-		var f = this.fibonancy(20);
+		var f = this.fibonancy(fn);
 		res.statusCode= 200;
 		res.end(f + "");
 	}
@@ -49,8 +49,8 @@ function HttpApi () {
 		fs.stat(`./tmp/tmp${r}` , function(err, stat)
 		{
 			if(err){
-				var f = me.fibonancy(20);
-				fs.writeFile(`./tmp/tmp${r}`, (f+"").repeat(2000), function(err) {
+				var f = me.fibonancy(fn);
+				fs.writeFile(`./tmp/tmp${r}`, (f+"").repeat(nbyte), function(err) {
     				if(err) {
     					res.statusCode=500;
 						res.end('here62');
@@ -70,7 +70,7 @@ function HttpApi () {
 						throw err;
 					}
   					n = n + ""; // ensure that there is no optimization here
-  					var f = me.fibonancy(20);
+  					var f = me.fibonancy(fn);
 					res.statusCode= 200;
 					res.end(f+"");
 				});
@@ -143,6 +143,9 @@ httpapi.initTest2();
 var server = http.createServer(function (req, res) {
 	httpapi.route(req, res);
 });
+
+var fn = process.argv[2] || 20;
+var nbyte = process.argv[3] || 20000;
 
 server.listen(httpport, function () {
 	console.log(`Server is running at port ${httpport}`);
