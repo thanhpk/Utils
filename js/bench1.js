@@ -49,15 +49,16 @@ function HttpApi () {
 		fs.stat(`./tmp/tmp${r}` , function(err, stat)
 		{
 			if(err){
-				fs.writeFile(`./tmp/tmp${r}`, 20, function(err) {
+				var f = me.fibonancy(20);
+				fs.writeFile(`./tmp/tmp${r}`, (f+"").repeat(2000), function(err) {
     				if(err) {
     					res.statusCode=500;
 						res.end('here62');
 						throw err;
 					}
-					var f = me.fibonancy(20);
+					
 					res.statusCode= 200;
-					res.end(f + "");
+					res.end(f+"");
 				});
 			}
 			else
@@ -79,6 +80,26 @@ function HttpApi () {
 
 	this.getRandom = function (min, max) {
 		return Math.round(Math.random() * (max - min)) + min;
+	}
+
+	function deleteFolderRecursive(path) {
+		if( fs.existsSync(path) ) {
+			fs.readdirSync(path).forEach(function(file,index){
+				var curPath = path + "/" + file;
+				if(fs.lstatSync(curPath).isDirectory()) { // recurse
+					deleteFolderRecursive(curPath);
+				} else { // delete file
+					fs.unlinkSync(curPath);
+				}
+			});
+			fs.rmdirSync(path);
+		}
+	}
+
+	this.initTest2 = function()
+	{
+		deleteFolderRecursive('./tmp');
+		fs.mkdirSync('./tmp');
 	}
 
 	this.handle = function(req, res, path) {
@@ -116,6 +137,9 @@ function HttpApi () {
 };
 var httpport = 2108;
 var httpapi = new HttpApi();
+
+httpapi.initTest2();
+
 var server = http.createServer(function (req, res) {
 	httpapi.route(req, res);
 });
