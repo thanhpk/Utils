@@ -135,7 +135,7 @@ function HttpApi () {
 		});
 	};
 };
-var httpport = 2108;
+
 var httpapi = new HttpApi();
 
 httpapi.initTest2();
@@ -144,8 +144,9 @@ var server = http.createServer(function (req, res) {
 	httpapi.route(req, res);
 });
 
-var fn = process.argv[2] || 20;
-var nbyte = process.argv[3] || 20000;
+var httpport = process.argv[2] || 2108;
+var fn = process.argv[3] || 20;
+var nbyte = process.argv[4] || 200000;
 
 server.listen(httpport, function () {
 	console.log(`Server is running at port ${httpport}`);
