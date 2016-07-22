@@ -1,0 +1,14 @@
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "gulp test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "thanhpk",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
