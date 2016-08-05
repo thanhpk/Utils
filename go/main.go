@@ -9,12 +9,9 @@ import (
 	"strings"
 	"strconv"
 	"log"
+	//"time"
+	"github.com/davecheney/profile"
 )
-
-type Page struct {
-	Title string
-	Body []byte
-}
 
 func fibonacci(x int) int {
 	if x==0 {
@@ -29,27 +26,29 @@ func fibonacci(x int) int {
 }
 
 func test1() int{
-	return fibonacci(20);
+//	time.Sleep(500 * time.Millisecond)
+	return fibonacci(20)
 }
 
 func test2() int{
-	var r int = GetRandom(0,1000);
+	var r int = GetRandom(0, 10000);
 	if _, err := os.Stat("./tmp/tmp" + strconv.Itoa(r)); os.IsNotExist(err){
-		var f int = fibonacci(20);
-		err = ioutil.WriteFile("./tmp/tmp" + strconv.Itoa(r), []byte(strings.Repeat(strconv.Itoa(f), 200000)), 0777);
+		var f int = fibonacci(20)
+		data := strings.Repeat(strconv.Itoa(f), r)
+		//fmt.Printf(data)
+		err = ioutil.WriteFile("./tmp/tmp" + strconv.Itoa(r), []byte(data), 0777);
 		if err != nil{
 			log.Fatal(err);
 		}
+		return len(data);
 	}else
 	{
 		var data, err = ioutil.ReadFile("./tmp/tmp" + strconv.Itoa(r))
-		if data == nil {}
 		if err != nil {
 			log.Fatal(err)
 		}
+		return len(data);
 	}
-
-	return fibonacci(20);
 }
 
 func GetRandom(min int, max int) int{
@@ -57,7 +56,7 @@ func GetRandom(min int, max int) int{
 }
 
 func initTest2(){
-	os.Remove("./tmp")
+	os.RemoveAll("./tmp")
 	os.Mkdir("./tmp", 0700)
 }
 
@@ -72,7 +71,14 @@ func handler(w http.ResponseWriter, r *http.Request){
 }
 
 func main(){
+	config := profile.Config{
+		CPUProfile: true,
+		MemProfile: true,
+		BlockProfile: true,
+	}
+	defer profile.Start(&config).Stop()
 	initTest2()
 	http.HandleFunc("/", handler)
+	fmt.Printf("listing on 8081");
 	http.ListenAndServe(":8081", nil)
 }
