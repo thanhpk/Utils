@@ -14,6 +14,7 @@
   "dependencies": {
     "fs": "0.0.2",
     "http": "0.0.0",
+    "jasmine": "^2.4.1",
     "querystring": "^0.2.0",
     "trycatch": "^1.5.21",
     "url": "^0.11.0"
