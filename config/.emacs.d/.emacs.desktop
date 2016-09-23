@@ -1,0 +1,259 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Sep 23 17:32:16 2016
+;; Desktop file format version 208
+;; Emacs version 25.1.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22501 1200 263823 483000) (desktop . "208") "thanhpk@leflair" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (tool-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 63) (width . 274) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "C9F2-837A-1832-3823") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 274) (pixel-height . 62) (total-width . 274) (total-height . 62) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 137) (pixel-height . 62) (total-width . 137) (total-height . 62) (normal-height . 1.0) (normal-width . 0.5) (buffer "authentication.client.config.js" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 582) (start . 1))) (leaf (last . t) (pixel-width . 137) (pixel-height . 62) (total-width . 137) (total-height . 62) (normal-height . 1.0) (normal-width . 0.5) (buffer "authentication.client.controller.js" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 867) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("authen" "getSa" "/signin" "elemn" ".$sta" "'pack" ".upda" "$upda" "unable to po" "barcode(" "assig" "location.slo" "upsert" "getUn" "updateStatsu" "moves"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/workspace/www.leflair.vn/app/controllers/" "~/workspace/www.leflair.vn/app" "~/workspace/www.leflair.vn/" "/home/thanhpk/.emacs" "~/workspace/www.leflair.vn/public" "~/workspace/www.leflair.vn/public/modules/" "~/workspace/www.leflair.vn/public" "~/workspace/www.leflair.vn/public/modules/" "~/workspace/www.leflair.vn/public/modules/sales" "/home/thanhpk/workspace/www.leflair.vn/newrelic.js" "/home/thanhpk/tmp/try3/importdb.sh" "/home/thanhpk/tmp/db.sh" "/home/thanhpk/tmp/removedumplicate.js" "/home/thanhpk/.config/software-center/softwarecenter.cfg" "~/workspace/admin.leflair.vn/public/modules/warehouse-locations" "~/workspace/admin.leflair.vn/public/modules/warehouse-locations/" "~/workspace/admin.leflair.vn/public/modules/picklist" "~/workspace/admin.leflair.vn/app/controllers/" "~/workspace/admin.leflair.vn/app/controllers/warehouse/" "~/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.edit.client.view.html" "~/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.add.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolleys.add.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.modal.client.controller.js" "~/workspace/admin.leflair.vn/public/modules/deals" "~/workspace/admin.leflair.vn/public/modules/deals/" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.add.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolleys.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/config/trolley.client.routes.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/config/trolley.client.config.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolley.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.edit.client.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.client.view.html" "~/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.client.html" "~/workspace/admin.leflair.vn/public/modules/trolleys/trolley.client.module.js" "~/workspace/admin.leflair.vn/public/modules/picklist/../trolleys" "~/workspace/admin.leflair.vn/public/modules/picklist/services" "~/workspace/admin.leflair.vn/public/modules/trolleys/services" "~/workspace/admin.leflair.vn/public/modules/trolleys/views" "~/workspace/admin.leflair.vn/public/modules/trolleys/controllers" "~/workspace/admin.leflair.vn/public/modules/trolleys/config" "~/workspace/admin.leflair.vn/public/modules/trolleys" "~/workspace/admin.leflair.vn/public/modules/picklist/controllers/../../" "~/workspace/admin.leflair.vn/app/routes/warehouse/" "/home/thanhpk/.emacs" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/picklist/views/picklist.pick.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/picklist/controllers/picklist.rollback.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/picklist/views/picklist.client.view.html" "~/.emacs" "~/workspace/admin.leflair.vn/.gitignore" "~/workspace/admin.leflair.vn/app/modules/helpers/object-ids.js"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/public/modules/core/config/authentication.client.config.js"
+  "authentication.client.config.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  582
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/public/modules/users/controllers/authentication.client.controller.js"
+  "authentication.client.controller.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  867
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/app/routes/sales.server.routes.js"
+  "sales.server.routes.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/app/controllers/sales.server.controller.js"
+  "sales.server.controller.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  438
+  '(743 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (927 1054 3145 1))))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/config/express.js"
+  "express.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  1732
+  '(1002 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3496 3984 3984))))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/views/sales-list.client.view.html"
+  "sales-list.client.view.html"
+  'html-mode
+  '(projectile-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(projectile-mode flycheck-mode)
+  4757
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/deals/services/deals.client.service.js"
+  "deals.client.service.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  1698
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/deals/deals.client.module.js"
+  "deals.client.module.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  81
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "deals"
+  'dired-mode
+  '(projectile-mode)
+  443
+  '(nil nil)
+  t
+  '("/home/thanhpk/workspace/admin.leflair.vn/public/modules/deals/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/admin.leflair.vn/app/controllers/sales.server.controller.js"
+  "sales.server.controller.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/warehouse-locations/services/location-types.client.service.js"
+  "location-types.client.service.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  14
+  '(112 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/warehouse-locations/views/warehouse-locations.modal.client.view.html"
+  "warehouse-locations.modal.client.view.html"
+  'html-mode
+  '(projectile-mode flycheck-mode)
+  1199
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/admin.leflair.vn/app/controllers/orders/orders.delivery.server.controller.js"
+  "orders.delivery.server.controller.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  8802
+  '(7347 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (7407))))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/admin.leflair.vn/app/routes/deals.server.routes.js"
+  "deals.server.routes.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  722
+  '(612 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (664 371))))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/config/sales.config.routes.js"
+  "sales.config.routes.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  197
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/services/sales.client.service.js"
+  "sales.client.service.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/controllers/sales-list.client.controller.js"
+  "sales-list.client.controller.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  51
+  '(70 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/controllers/sale.client.controller.js"
+  "sale.client.controller.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "*eww*"
+  'eww-mode
+  '(projectile-mode)
+  1
+  '(nil nil)
+  t
+  '(:history ((:url "http://www.google.com.vn/?gfe_rd=cr&ei=yoLjV52WOrDY8gfSjrzADg" :title "Google")))
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t) (eww-history-position . 0))
+  '((mark-ring nil)))
+
