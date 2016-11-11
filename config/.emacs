@@ -1,6 +1,7 @@
 ;;; package --- Summary
 ;;; Commentary:
 ;;; Code:
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -61,6 +62,8 @@
 (add-to-list 'load-path "~/elisp")
 
 (require 'go-mode-autoloads)
+(require 'dockerfile-mode)
+(add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
@@ -105,6 +108,9 @@
 
 (desktop-save-mode 1)
 
+;; Docker file mode
+;; (add-to-list 'load-path "~/elisp/dockerfile-mode")
+
 
 (defun scroll-up-line-3 ()
   "Upcase the last letter of the word at point."
@@ -133,9 +139,9 @@
 	(open-line 1)
 	(indent-for-tab-command))
 
-;(add-to-list 'load-path "~/elisp/neotree")
-;(require 'neotree)
-;(global-set-key [f8] 'neotree-toggle)
+;;(add-to-list 'load-path "~/elisp/neotree")
+;;(require 'neotree)
+;;(global-set-key [f8] 'neotree-toggle)
 
 (global-set-key (kbd "M-o n") 'move-to-next-line)
 (global-set-key (kbd "M-o p") 'move-to-prev-line)
@@ -150,3 +156,20 @@
 (global-hl-line-mode 1)
 (set-face-background 'hl-line "#3e4446")
 (set-face-foreground 'highlight nil)
+(put 'dired-find-alternate-file 'disabled nil)
+(add-hook 'dired-mode-hook
+ (lambda ()
+  (define-key dired-mode-map (kbd "^")
+    (lambda () (interactive) (find-alternate-file "..")))
+  ; was dired-up-directory
+))
+
+;; YML YAML mode
+
+(add-hook 'yaml-mode-hook
+					(lambda ()
+						(define-key yaml-mode-map "\C-m" 'newline-and-indent)))
+
+
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))

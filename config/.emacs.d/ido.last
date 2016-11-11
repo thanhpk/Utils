@@ -1,0 +1,135 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/thanh/workspace/meotrics/core/" . "module/")
+ ("/home/thanh/workspace/meotrics/" . "core/")
+ ("/home/thanh/workspace/Utils/" . "go/")
+ ("/usr/share/xfce4/terminal/" . "colorschemes/")
+ ("/home/thanh/workspace/" . "meotrics/")
+ ("/home/" . "thanh/")
+ ("/home/thanh/" . "elisp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/thanh/"
+ "/home/thanh/workspace/8vbeauty/"
+ "/home/thanh/workspace/deployIt/"
+ "/home/thanh/workspace/Utils/go/"
+ "/home/thanh/workspace/meotrics/core/module/"
+ "/usr/share/xfce4/terminal/colorschemes/"
+ "/home/thanh/workspace/vagrant/"
+ "/home/thanh/workspace/kubernet101/docker/kubehost/"
+ "/home/thanh/workspace/kubernet101/"
+ "/home/thanh/workspace/www.leflair.vn/"
+ "/home/thanh/workspace/mydockerbuild/consul/"
+ "/home/thanh/workspace/src/"
+ "/home/thanh/elisp/"
+ "/home/thanh/workspace/src/github.com/thanhpk/defertest/"
+ "/home/thanh/workspace/src/github.com/thanhpk/hackerrank/30days/"
+ "/home/thanh/workspace/src/github.com/thanhpk/5loop/"
+ "/home/thanh/workspace/src/github.com/thanhpk/classvsinheritance/"
+ "/home/thanh/workspace/src/github.com/thanhpk/bitwiseAnd/"
+ "/home/thanh/workspace/src/github.com/thanhpk/string/"
+ "/home/thanh/workspace/"
+ "/home/thanh/workspace/src/github.com/thanhpk/hello/"
+ "/home/thanh/workspace/src/github.com/thanhpk/"
+ "/etc/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "abcde"
+ "abcd.go"
+ "crud.js"
+ "main.go"
+ "thanh.theme"
+ "README-docker.md"
+ "Vagrantfile"
+ "script.sh"
+ ".profile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/thanh/workspace/8vbeauty/" (22554 59013 131144 180000) "./" "../" ".#abcde")
+
+ ("/home/thanh/workspace/" (22554 58966 888626 443000) "mydockerbuild/" "Utils/" "bin/" "./" "www.leflair.vn/" "opentracing101/" "vagrant/" "../" "meotrics/" "alpine/" "trash/" "8vbeauty/" "pkg/" "my-wordpress/" "src/" "kubernet101/" "deployIt/" "composetest/")
+
+ ("/home/thanh/workspace/deployIt/" (22554 15237 700216 806000) "./" "../" "abcd.go")
+
+ ("/home/thanh/workspace/Utils/go/" (22554 14404 102594 686000) "./" "../" ".gitignore" "main" "main.go")
+
+ ("/home/thanh/workspace/meotrics/core/module/" (22527 56185 71735 483000) "httpapi.js" "segmentresult.js" "./" "crud.js" "valuemgr.js" "actionmgr.ts" "propmgr.js" "referer.ts" "typemgr.js" "../" "crudapi.ts" "ws.ts" "sessionmgr.ts" "location.ts" "trendmgr.ts" "appException.js" "segment.js" "compaignmgr.js" "dashboard.ts" "appmgr.js")
+
+ ("/home/thanh/workspace/meotrics/core/" (22527 56185 71735 483000) "typings.d.ts" "./" "module/" "app.ts" "README.md" "test/" "../" "clusterapp.js" "asset/" "utils/" "package.json" "config/" ".gitignore" "tsconfig.json")
+
+ ("/home/thanh/workspace/meotrics/" (22527 56185 179738 242000) "./" "landing/" "README.md" "dashboard/" "core/" "../" "resources/" "docs/" "LICENSE" "countingtimeonpage.md" ".git/" ".gitattributes" ".gitignore" "client/")
+
+ ("/home/thanh/workspace/Utils/" (22527 58571 543812 621000) "./" "README.md" "ts/" "test/" "java/" "gulp/" "../" "go/" "js/" "config/" "maxmind/" "git/" "LICENSE" ".git/" "c")
+
+ ("/usr/share/xfce4/terminal/colorschemes/" (22554 12932 511912 912000) "xubuntu-light.theme" "./" "black-on-white.theme" "dark-pastels.theme" "../" "xterm.theme" "tango.theme" "white-on-black.theme" "thanh.theme" "solarized-dark.theme" "xubuntu-dark.theme" "green-on-black.theme" "solarized-light.theme")
+
+ ("/usr/share/xfce4/terminal/" (22501 30543 486921 730000) "colorschemes/" "./" "terminal-preferences.ui" "../")
+
+ ("/usr/share/xfce4/" (22501 31747 566952 952000) "weather/" "./" "panel-plugins/" "panel/" "../" "helpers/" "backdrops/" "applications/" "terminal/" "xkb/")
+
+ ("/etc/" (22554 10463 878379 986000) "rc3.d/" "xfce4/" "pki/" "localtime" "thunderbird/" "popularity-contest.conf" "os-release" "insserv/" "hosts.deny" "group-" "hostname" "debian_version" "update-manager/" "zsh_command_not_found" "bluetooth/" "resolv.conf" "shells" "sane.d/" "ifplugd/" "nsswitch.conf" "insserv.conf" "ucf.conf" "rc1.d/" "passwd" "hdparm.conf" "alternatives/" "gshadow" "inputrc" "sensors.d/" "xml/" "kernel/" "mail.rc" "dpkg/" "passwd-" "gtk-2.0/" "dhcp/" "gtk-3.0/" "profile.d/" "avahi/" "python2.7/" "rc6.d/" "kerneloops.conf" "fwupd.conf" "skel/" "pam.d/" "adduser.conf" "rc0.d/" "pnm2ppa.conf" "wgetrc" "aliases" "dnsmasq.d/" "obex-data-server/" "opt/" "guest-session/" "modprobe.d/" "init.d/" "services" "bash.bashrc" "ca-certificates.conf.dpkg-old" "python3.5/" "python3/" "fuse.conf" "vtrgb" "dictionaries-common/" "wpa_supplicant/" "speech-dispatcher/" "ld.so.conf.d/" "dtrace.conf" "logrotate.conf" "python3.4/" "console-setup/" "gnome-app-install/" "network/" "networks" "appstream.conf" "ld.so.conf" "firefox/" "printcap" "rmt" "gnome-vfs-2.0/" "inxi.conf" "modules-load.d/" "brltty.conf" "libaudit.conf" "vim/" "locale.alias" "quilt.quiltrc" "doc-base/" "selinux/" "updatedb.conf" "mtab.fuselock" "binfmt.d/" "issue.net" "ImageMagick-6/" "security/" "init/" "sysctl.conf" "issue" "lintianrc" "adjtime" "sudoers" "upstart-xsessions" "udisks2/" "apparmor/" "purple/" "udev/" "cron.monthly/" "polkit-1/" "crontab" "cups/" "apparmor.d/" "subgid" "libpaper.d/" "hddtemp.db" "gdb/" "kbd/" "kernel-img.conf" "legal" "aliases.db" "usb_modeswitch.conf" "postfix/" "gnome-system-tools/" "fstab" "vdpau_wrapper.cfg" "sudoers.d/" "pm/" "pam.conf" "sysctl.d/" "pulse/" "timezone" "login.defs" "rc4.d/" "modules" "presage.xml" "cupshelpers/" "ssh/" "newt/" "texmf/" "rsyslog.conf" "cron.weekly/" "usb_modeswitch.d/" "ld.so.cache" "libnl-3/" "UPower/" "libao.conf" "ltrace.conf" "ca-certificates.conf" "samba/" "magic.mime" "sensors3.conf" "logrotate.d/" "gshadow-" "hosts.allow" "NetworkManager/" "gai.conf" "sgml/" "mime.types" "rc5.d/" "checkinstallrc" "rc2.d/" "rpc" "rcS.d/" "insserv.conf.d/" "brltty/" "update-motd.d/" "mailcap" "protocols" "default/" "gtkmathview/" "grub.d/" "gnome/" "cron.hourly/" "xdg/" "rc.local" "ghostscript/" "manpath.config" "groff/" "mke2fs.conf" "hosts" "apm/" "depmod.d/" "subuid-" "initramfs-tools/" "deluser.conf" "sound/" "bonobo-activation/" "xul-ext/" "mysql/" "host.conf" "acpi/" "ufw/" "ssl/" "securetty" "magic" "nanorc" "shadow-" "lsb-release" "ldap/" "bash_completion.d/" "libreoffice/" "mailcap.order" "ca-certificates/" "update-notifier/" "pcmcia/" "X11/" "profile" "environment" "papersize" "lightdm/" "mtab" "fonts/" "gconf/" "subuid" "subgid-" "chatscripts/" "thermald/" "drirc" ".pwd.lock" "gss/" "gimp/" "ppp/" "hp/" "rsyslog.d/" "calendar/" "resolvconf/" "debconf.conf" "nginx/" "at-spi2/" "tmpfiles.d/" "shadow" "locale.gen" "anacrontab" "apt/" "perl/" "bash_completion" "python/" "iproute2/" "cron.d/" "bindresvport.blacklist" "docker/" "vbox/" "group" "cron.daily/" "logcheck/" "dbus-1/" "machine-id" "terminfo/" "systemd/" "brlapi.key" "emacs/" "apport/" "../" "./")
+
+ ("/home/thanh/workspace/vagrant/" (22554 9956 95362 39000) "id_rsa" "./" "#README-docker.md#" "README.md" ".bash_history" "kubenetes/" ".cache/" ".ssh/" "../" "id_rsa.pub" "script.sh" "Vagrantfile" ".vagrant/" "b" "README-docker.md")
+
+ ("/usr/share/" (22540 62530 441618 855000) "xfburn/" "base-files/" "xfce4/" "os-prober/" "omf/" "libthai/" "abiword-3.0/" "zsh/" "pastebin.d/" "insserv/" "xfwm4/" "update-manager/" "oneconf/" "mugshot/" "perl5/" "file-roller/" "gettext-0.19.7/" "blueman/" "upstart/" "djvu/" "pnm2ppa/" "lintian/" "software-properties/" "gmusicbrowser/" "myspell/" "zoneinfo/" "pavucontrol/" "gnome-mines/" "xsessions/" "vala/" "gstreamer-0.10/" "libaudio2/" "consolefonts/" "gettext/" "fontconfig/" "mime-info/" "unity/" "aclocal-1.15/" "ppd/" "xml/" "cdbs/" "help-langpack/" "common-licenses/" "desktop-directories/" "dpkg/" "gir-1.0/" "m17n/" "gtk-3.0/" "avahi/" "sysv-rc/" "hplip/" "secureboot/" "docker-engine/" "command-not-found/" "gnome-shell/" "pulseaudio/" "locale/" "enchant/" "grub/" "dh-python/" "gnupg/" "liblangtag/" "distro-info/" "dict/" "link-grammar/" "po-debconf/" "indicators/" "python3/" "help/" "util-macros/" "system-config-printer/" "dictionaries-common/" "consoletrans/" "gnome-software/" "acpi-support/" "webkitgtk-3.0/" "p11-kit/" "orage/" "speech-dispatcher/" "idl/" "gitweb/" "sounds/" "gnumeric/" "libnma/" "xfpanel-switch/" "console-setup/" "apt-xapian-index/" "man/" "iptables/" "mime/" "glib-2.0/" "quilt/" "directfb-1.2.10/" "wayland/" "vim/" "popularity-contest/" "info/" "doc-base/" "readline/" "telepathy/" "bison/" "webkitgtk-1.0/" "mimelnk/" "onboard/" "bash-completion/" "aspell/" "gnupg2/" "java/" "cogl/" "vlc/" "ImageMagick-6/" "ots/" "mysql-common/" "javascript/" "locale-langpack/" "misc/" "farstream/" "xml-core/" "im-config/" "gtksourceview-3.0/" "liblouis/" "liblouisutdml/" "app-install/" "evolution-data-server/" "transmission/" "qtchooser/" "yelp/" "purple/" "polkit-1/" "images/" "color/" "dnsmasq-base/" "debianutils/" "catfish/" "cups/" "virtualbox/" "libexttextcat/" "software-center/" "application-registry/" "icu/" "package-data-downloads/" "yelp-xsl/" "apps/" "intltool-debian/" "gdb/" "nmap/" "poppler/" "lua/" "mythes/" "GConf/" "postfix/" "maven-repo/" "gnome-system-tools/" "file/" "indicator-power/" "nano/" "hwdata/" "vte/" "language-support/" "gnome-2.0/" "alsa/" "dns/" "lightdm-gtk-greeter-settings/" "gtk-engines/" "hyphen/" "git-core/" "pam/" "hunspell/" "libvisual-plugins-0.4/" "xapian-core/" "python-apt/" "simple-scan/" "texmf/" "rsyslog/" "indicator-application/" "libc-bin/" "themes/" "shutter/" "gst-plugins-base/" "locales/" "libsensors4/" "tcltk/" "pam-configs/" "samba/" "librevenge/" "ubuntu-release-upgrader/" "libnm-gtk/" "wallpapers/" "pkgconfig/" "GeoIP/" "grub-gfxpayload-lists/" "debhelper/" "automake-1.15/" "doc/" "menu/" "qt4/" "qt5/" "sgml/" "sgml-base/" "libgphoto2/" "mozilla/" "kde4/" "pyshared/" "xubuntu/" "foo2qpdl/" "adduser/" "brltty/" "desktop-base/" "xgreeters/" "gtkmathview/" "plymouth/" "gnome/" "libparse-debianchangelog-perl/" "build-essential/" "xubuntu-docs/" "presage/" "colord/" "menulibre/" "gcc-5/" "ghostscript/" "groff/" "nm-applet/" "initramfs-tools/" "hal/" "code/" "unity-greeter/" "ufw/" "xfce4-notes-plugin/" "app-info/" "gtk-doc/" "binfmts/" "mobile-broadband-provider-info/" "gnome-control-center/" "linux-sound-base/" "gstreamer-1.0/" "applications/" "usb_modeswitch/" "parole/" "thumbnailers/" "libreoffice/" "aclocal/" "gvfs/" "ca-certificates/" "icons/" "bsd-mailx/" "update-notifier/" "evince/" "tex-common/" "libtool/" "X11/" "backgrounds/" "gdm/" "unattended-upgrades/" "gutenprint/" "ssl-cert/" "netpbm/" "lightdm/" "appdata/" "autoconf/" "fonts/" "gconf/" "pixmaps/" "keyrings/" "language-tools/" "accountsservice/" "pkg-config-dpkghook" "gitk/" "foo2zjs/" "hardening-includes/" "light-locker-settings/" "gcr-3/" "bug/" "awk/" "tabset/" "snmp/" "gtksourceview-2.0/" "ubuntu-drivers-common/" "gimp/" "ppp/" "calendar/" "fcitx/" "resolvconf/" "pygtk/" "Thunar/" "zenity/" "i18n/" "nginx/" "debconf/" "texinfo/" "base-passwd/" "gnome-vpn-properties/" "gnome-background-properties/" "gnome-sudoku/" "fish/" "games/" "perl/" "python/" "language-selector/" "libwacom/" "gnome-online-accounts/" "alsa-base/" "dbus-1/" "pkg-config-crosswrapper" "man-db/" "terminfo/" "systemd/" "emacs/" "system-tools-backends-2.0/" "apport/" "../" "./")
+
+ ("/usr/" (22509 15765 108135 489000) "local/" "include/" "bin/" "./" "libx32/" "share/" "lib/" "lib32/" "../" "src/" "sbin/" "games/")
+
+ ("/home/thanh/" (22554 12499 43025 393000) ".config/" ".emacs" ".vagrant.d/" ".nano/" "./" ".dmrc" "Templates/" "Documents/" ".bash_history" ".face" ".gnupg/" ".Xdefaults" ".fonts/" ".gnome/" ".cache/" "pr_psargs" ".local/" ".thumbnails/" ".vscode/" ".gphoto/" ".mozilla/" ".gimp-2.8/" ".ssh/" "tmp/" ".xsession-errors" ".node_repl_history" "../" ".touchpad.sh" ".pam_environment" ".gconf/" "Downloads/" ".thunderbird/" "workspace/" ".profile" ".xinputrc" "elisp/" ".ICEauthority" ".xsession-errors.old" "Pictures/" "VirtualBox VMs/" ".bash_logout" "Public/" ".pki/" ".emacs.d/" ".shutter/" ".gstreamer-0.10/" ".Xauthority" ".sudo_as_admin_successful" "Videos/" ".xscreensaver" "Music/" "Desktop/" ".gitconfig" ".dbus/" ".gvfs/" ".bashrc" ".gnome2/")
+
+ ("/home/thanh/workspace/mydockerbuild/consul/" (22539 41573 307155 541000) "./" "#Dockerfile#" "../" "Dockerfile")
+
+ ("/home/thanh/workspace/kubernet101/" (22539 44467 508387 989000) "./" "pod-nginx.yaml" "../" "docker/")
+
+ ("/home/thanh/workspace/kubernet101/docker/kubehost/" (22540 47432 669847 566000) "./" "kubenetes/" "../" "Dockerfile")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/bitwiseAnd/" (22532 27159 602959 782000) "*scratch*" "index.go" "./" "../")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/classvsinheritance/" (22532 27741 28622 532000) "index.go" "./" "../" "#index.go#")
+
+ ("/home/thanh/workspace/www.leflair.vn/" (22534 16809 115973 170000) "./" "font-sync.sh" "README.md" "app/" ".csslintrc" "bower.json" "translate/" "karma.conf.js" ".jshintrc" "shippable.yml" "server.js" "img-sync.sh" ".editorconfig" ".vscode/" "../" "BrowserStackLocal" "package.json" ".bowerrc" "config/" "public/" "newrelic.js" "gruntfile.js" "build-push.sh" ".git/" "Dockerfile" ".gitignore")
+
+ ("/home/thanh/workspace/src/" (22528 42990 433197 525000) "sourcegraph.com/" "./" "../" ".git/" "golang.org/" "github.com/")
+
+ ("/home/thanh/elisp/" (22532 26170 283715 262000) "tests/" "./" "README.md" "php-mode.el" "skeleton/" "../" "php-mode-test.el" "Changelog.md" "dockerfile-mode.el" "go-mode.el" "LICENSE" "neotree/" "Makefile" ".travis.yml" ".gitignore" "go-mode-autoloads.el")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/" (22512 30384 70555 987000) "clousertest.go" "5loop/" "./" "hello/" "classvsinheritance/" "string/" "../" "bitwiseAnd/" "defertest/" "hackerrank/")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/string/" (22512 30385 534001 790000) "./" "string.go" "../")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/defertest/" (22509 52593 605551 0) "defertest.go" "./" "../" "#defertest.go#")
+
+ ("/home/thanh/workspace/mydockerbuild/" (22524 26517 209791 980000) "./" "../" "Dockerfile")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/hackerrank/30days/" (22505 19905 328801 42000) "7array.go" "./" "../")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/5loop/" (22505 18027 384074 175000) "./" "../" "5loop.go")
+
+ ("/home/thanh/Downloads/emacs-25.1/src/" (22501 56652 534741 707000) "doprnt.c" "dosfns.c" "menu.h" "unexcw.c" "COPYING" "eval.c" "keyboard.o" "vm-limit.c" "dbusbind.c" "unexhp9k800.c" "systime.h" "xgselect.c" "ChangeLog.6" "doc.o" "globals.h" "cygw32.c" "profiler.c" "xsmfns.c" "sound.c" "w32inevt.h" "xgselect.h" "buffer.o" "disptab.h" "ralloc.c" "w32notify.c" "keyboard.h" "syntax.c" "charset.h" "category.c" "xml.o" "ChangeLog.5" "xsettings.h" "w32font.h" "minibuf.c" "xsettings.o" "temacs" "getpagesize.h" "ftxfont.c" "Makefile.in" "intervals.c" "terminfo.o" "xsettings.c" "coding.o" "atimer.o" "xgselect.o" "callproc.o" "widgetprv.h" "unexsol.c" "region-cache.c" "gtkutil.h" "buildobj.h" "doprnt.o" "alloc.c" "ChangeLog.2" "unexw32.c" "character.o" "bitmaps/" "firstfile.c" "w32fns.c" "nsgui.h" "ChangeLog.9" "unexelf.o" "term.o" "coding.c" "termchar.h" "emacsgtkfixed.o" "floatfns.o" "emacs.o" "buffer.c" "epaths.in" "menu.c" "regex.h" "coding.h" "scroll.o" "xwidget.h" "xdisp.c" "floatfns.c" "w32select.c" "w32gui.h" "cm.c" "frame.h" "charset.c" "terminfo.c" "termhooks.h" "xrdb.o" "editfns.o" "keymap.h" "emacsgtkfixed.h" "ftfont.o" "w32.c" "terminal.o" "fns.c" "macfont.m" "alloc.o" "inotify.o" "termcap.c" "xselect.c" "undo.c" "search.c" "scroll.c" "nsselect.m" "xterm.o" "insdel.o" "xwidget.c" "cm.h" "editfns.c" "dired.c" "ChangeLog.12" "unexcoff.c" "ChangeLog.1" "sysselect.h" "README" "search.o" "gnutls.c" "ChangeLog.3" "deps.mk" "dbusbind.o" "ccl.c" "intervals.o" "atimer.h" "filelock.c" "syntax.o" "emacs.c" "bootstrap-emacs" "syssignal.h" "syswait.h" "gtkutil.o" "w32font.c" "inotify.c" "chartab.c" "gtkutil.c" "xmenu.c" "xterm.h" "doc.c" "ftfont.h" "widget.c" "regex.o" "data.c" "w32menu.c" "bytecode.c" "xfns.c" "keymap.c" "dynlib.h" "term.c" "font.c" "casefiddle.c" "process.o" "dispnew.o" "dispnew.c" "xterm.c" "insdel.c" "lread.c" "marker.c" "intervals.h" "xmenu.o" "w32xfns.c" "xsmfns.o" "lisp.mk" "xfont.o" "fringe.o" "tparam.c" "callint.o" "commands.h" "w32proc.c" "callproc.c" "macros.c" "w32term.c" "w32console.c" "unexec.h" "kqueue.c" "w32.h" "ChangeLog.7" "keymap.o" "process.h" "w32heap.c" "window.c" "image.o" "ChangeLog.8" "epaths.h" "fontset.h" "profiler.o" "terminal.c" "cmds.o" "stamp-h.in" "w32uniscribe.c" "callint.c" "nsmenu.m" "gl-stamp" "lread.o" "dosfns.h" "chartab.o" "indent.o" "lastfile.o" "region-cache.o" "config.in" "sysdep.c" "xdisp.o" "ChangeLog.11" "deps/" "textprop.o" "lisp.h" "gmalloc.c" "dynlib.c" "xftfont.o" "sheap.c" "w32select.h" "macros.h" "ChangeLog.13" "composite.o" "widget.h" "data.o" "decompress.c" "ftfont.c" "xfaces.o" "fileio.c" "nsterm.h" "xfns.o" "print.c" "stamp-h1" "keyboard.c" "unexelf.c" "regex.c" "termopts.h" "msdos.h" "unexaix.c" "vm-limit.o" "tparam.h" "xml.c" "w16select.c" "puresize.h" "image.c" "print.o" "casetab.c" "minibuf.o" "font.o" "config.h" "emacs-module.h" "frame.c" "blockinput.h" "w32inevt.c" "window.h" "lastfile.c" "atimer.c" "systty.h" "emacs-icon.h" "unexmacosx.c" "fontset.c" "bidi.c" "emacsgtkfixed.c" "sysdep.o" "character.h" "filelock.o" "dired.o" "process.c" "region-cache.h" "macfont.h" "cmds.c" "bytecode.o" "nsterm.m" "xselect.o" "cm.o" "Makefile" "nsfns.m" "xftfont.c" "ftxfont.o" "fontset.o" "cygw32.h" "w32reg.c" "ChangeLog.4" "charset.o" "syntax.h" "gnutls.h" "marker.o" "xrdb.c" "sound.o" "casetab.o" "casefiddle.o" "frame.o" "msdos.c" "window.o" "font.h" "w32heap.h" ".gdbinit" "macros.o" "gfilenotify.c" "ftcrfont.c" "eval.o" "w32common.h" "emacs-25.1.1" "fringe.c" "emacs-module.c" "ccl.h" "fileio.o" "bidi.o" "w32term.h" "undo.o" "menu.o" "composite.h" "nsfont.m" "textprop.c" "category.o" ".dbxinit" "ccl.o" "macuvs.h" "conf_post.h" "decompress.o" "nsimage.m" "buffer.h" "dispextern.h" "ChangeLog.10" "indent.c" "indent.h" "category.h" "composite.c" "fns.o" "gnutls.o" "character.c" "sysstdio.h" "xfaces.c" "emacs" "xfont.c" "../" "./")
+
+ ("/home/thanh/workspace/src/github.com/thanhpk/hello/" (22503 20387 981062 583000) "./" "hello.go" "../")
+
+ ("/home/thanh/workspace/www.leflair.vn/app/controllers/" (22502 45177 724082 207000) "vouchers.server.controller.js" "checkout.server.controller.js" "credit-card/" "users.server.controller.js" "./" "core.server.controller.js" "referrals.server.controller.js" "sales.server.controller.js" "address.server.controller.js" "users/" "products.server.controller.js" "cart.server.controller.js" "../" "event-log.server.controller.js" "gift-card.server.controller.js" "campaign.server.controller.js" "preview.server.controller.js" "errors.server.controller.js" "account.server.controller.js")
+
+ ("/home/thanh/workspace/www.leflair.vn/app/controllers/credit-card/" (22502 26742 791340 517000) "decrypt.js" "./" "error-code.js" "data-feed.server.controller.js" "credit-card.server.controller.js" "../")
+
+ ("/home/" (22501 10540 708945 326000) "./" "thanh/" "../")
+
+ ("/home/thanh/.cache/" (22502 5999 704343 425000) "xfce4/" "thunderbird/" "oneconf/" "upstart/" "fontconfig/" "./" "obexd/" "motd.legal-displayed" "thumbnails/" "software-center/" "blueman-services-1000" "update-manager-core/" "blueman-applet-1000" "../" "sso/" "webkit/" "mozilla/" "gstreamer-1.0/" "logrotate/" "sessions/" "xfce4-indicator-plugin.log" "google-chrome/")
+
+ ("/home/thanh/.config/" (22501 65396 376294 932000) "xfce4/" "upstart/" "user-dirs.dirs" "gtk-2.0/" "gtk-3.0/" "./" "user-dirs.locale" "Mousepad/" "software-center/" "dconf/" "pulse/" "mimeapps.list" "../" "menus/" "update-notifier/" "Thunar/" "google-chrome/" "ristretto/")
+
+ ("/usr/share/X11/xorg.conf.d/" (22501 59278 119357 41000) "./" "50-synaptics.conf" "10-amdgpu.conf" "50-vmmouse.conf" "10-quirks.conf" "10-evdev.conf" "../" "51-synaptics-quirks.conf" "11-evdev-quirks.conf" "50-synaptics-my.conf" "50-wacom.conf" "11-evdev-trackpoint.conf")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

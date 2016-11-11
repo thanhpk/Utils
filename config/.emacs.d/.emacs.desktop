@@ -2,49 +2,49 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Sep 23 17:32:16 2016
+;; Created Thu Nov  3 18:04:50 2016
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22501 1200 263823 483000) (desktop . "208") "thanhpk@leflair" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (tool-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 63) (width . 274) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "C9F2-837A-1832-3823") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 274) (pixel-height . 62) (total-width . 274) (total-height . 62) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 137) (pixel-height . 62) (total-width . 137) (total-height . 62) (normal-height . 1.0) (normal-width . 0.5) (buffer "authentication.client.config.js" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 582) (start . 1))) (leaf (last . t) (pixel-width . 137) (pixel-height . 62) (total-width . 137) (total-height . 62) (normal-height . 1.0) (normal-width . 0.5) (buffer "authentication.client.controller.js" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 867) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (22555 6610 390130 747000) (desktop . "208") "thanh@K43E" nil nil ((((environment "_=/usr/local/bin/emacsclient" "COLORTERM=xfce4-terminal" "XAUTHORITY=/home/thanh/.Xauthority" "LC_NAME=en_US.UTF-8" "LC_TIME=en_US.UTF-8" "LESSCLOSE=/usr/bin/lesspipe %s %s" "XDG_CURRENT_DESKTOP=XFCE" "GTK_IM_MODULE=" "GLADE_CATALOG_PATH=:" "DISPLAY=:0.0" "XDG_RUNTIME_DIR=/run/user/1000" "UPSTART_JOB=startxfce4" "INSTANCE=" "GOPATH=/home/thanh/workspace" "LESSOPEN=| /usr/bin/lesspipe %s" "QT4_IM_MODULE=" "XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share" "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-mP0TyjGxeb" "LOGNAME=thanh" "XDG_SESSION_DESKTOP=xubuntu" "UPSTART_EVENTS=started xsession" "GTK_OVERLAY_SCROLLING=0" "UPSTART_INSTANCE=" "LANGUAGE=en_US" "XDG_SEAT=seat0" "HOME=/home/thanh" "SHLVL=1" "SESSIONTYPE=" "GDMSESSION=xubuntu" "PAPERSIZE=letter" "IM_CONFIG_PHASE=1" "LC_MEASUREMENT=en_US.UTF-8" "MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path" "GDM_LANG=en_US" "LANG=en_US.UTF-8" "GNOME_KEYRING_PID=" "XMODIFIERS=" "JOB=dbus" "PWD=/tmp/mozilla_thanh0" "XDG_SESSION_TYPE=x11" "LC_IDENTIFICATION=en_US.UTF-8" "QT_IM_MODULE=" "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/usr/local/node-v4.5.0/bin:/snap/bin" "DESKTOP_SESSION=xubuntu" "XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg" "SESSION_MANAGER=local/K43E:@/tmp/.ICE-unix/2822,unix/K43E:/tmp/.ICE-unix/2822" "DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path" "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "GLADE_MODULE_PATH=:" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "QT_ACCESSIBILITY=1" "CLUTTER_BACKEND=x11" "LC_TELEPHONE=en_US.UTF-8" "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:" "USER=thanh" "GNOME_KEYRING_CONTROL=" "UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/2245" "LC_NUMERIC=en_US.UTF-8" "WINDOWID=27263402" "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1" "TERM=xterm" "SHELL=/bin/bash" "XDG_MENU_PREFIX=xfce-" "GLADE_PIXMAP_PATH=:" "GPG_AGENT_INFO=/home/thanh/.gnupg/S.gpg-agent:0:1" "SESSION=xubuntu" "QT_STYLE_OVERRIDE=gtk" "CLUTTER_IM_MODULE=" "LC_MONETARY=en_US.UTF-8" "XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/thanh" "XDG_SESSION_ID=c2" "LC_ADDRESS=en_US.UTF-8" "LC_PAPER=en_US.UTF-8" "XDG_VTNR=7") (client . "Unprintable entity") (tty-type . "xterm") (tty . "/dev/pts/5") (display-type . color) (background-mode . light) (cursor-color . "black") (display . ":0.0") (frameset--id . "621D-4160-8BEB-5AC4") (frameset--mini t) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 52) (width . 96) (modeline . t) (minibuffer . t) (unsplittable) (menu-bar-lines . 1)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 96) (pixel-height . 51) (total-width . 96) (total-height . 51) (normal-height . 1.0) (normal-width . 1.0) (buffer "docker-composer.yml" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 145) (start . 1))) (((tool-bar-lines . 0) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (display-type . mono) (background-mode . dark) (cursor-color . "white") (font . "tty") (height . 9) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "8D6A-A126-B7F1-2DBA") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "bower.json" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("authen" "getSa" "/signin" "elemn" ".$sta" "'pack" ".upda" "$upda" "unable to po" "barcode(" "assig" "location.slo" "upsert" "getUn" "updateStatsu" "moves"))
+(setq search-ring '("y" "yaml" ".e" "wor" "sync" "wor" "work" "a" "worksaa" "work" "opentrac" "collectorPo" "authen" "getSa" "/signin" "elemn"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/workspace/www.leflair.vn/app/controllers/" "~/workspace/www.leflair.vn/app" "~/workspace/www.leflair.vn/" "/home/thanhpk/.emacs" "~/workspace/www.leflair.vn/public" "~/workspace/www.leflair.vn/public/modules/" "~/workspace/www.leflair.vn/public" "~/workspace/www.leflair.vn/public/modules/" "~/workspace/www.leflair.vn/public/modules/sales" "/home/thanhpk/workspace/www.leflair.vn/newrelic.js" "/home/thanhpk/tmp/try3/importdb.sh" "/home/thanhpk/tmp/db.sh" "/home/thanhpk/tmp/removedumplicate.js" "/home/thanhpk/.config/software-center/softwarecenter.cfg" "~/workspace/admin.leflair.vn/public/modules/warehouse-locations" "~/workspace/admin.leflair.vn/public/modules/warehouse-locations/" "~/workspace/admin.leflair.vn/public/modules/picklist" "~/workspace/admin.leflair.vn/app/controllers/" "~/workspace/admin.leflair.vn/app/controllers/warehouse/" "~/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.edit.client.view.html" "~/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.add.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolleys.add.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.modal.client.controller.js" "~/workspace/admin.leflair.vn/public/modules/deals" "~/workspace/admin.leflair.vn/public/modules/deals/" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.add.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolleys.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/config/trolley.client.routes.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/config/trolley.client.config.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolley.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.edit.client.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.client.view.html" "~/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.client.html" "~/workspace/admin.leflair.vn/public/modules/trolleys/trolley.client.module.js" "~/workspace/admin.leflair.vn/public/modules/picklist/../trolleys" "~/workspace/admin.leflair.vn/public/modules/picklist/services" "~/workspace/admin.leflair.vn/public/modules/trolleys/services" "~/workspace/admin.leflair.vn/public/modules/trolleys/views" "~/workspace/admin.leflair.vn/public/modules/trolleys/controllers" "~/workspace/admin.leflair.vn/public/modules/trolleys/config" "~/workspace/admin.leflair.vn/public/modules/trolleys" "~/workspace/admin.leflair.vn/public/modules/picklist/controllers/../../" "~/workspace/admin.leflair.vn/app/routes/warehouse/" "/home/thanhpk/.emacs" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/picklist/views/picklist.pick.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/picklist/controllers/picklist.rollback.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/picklist/views/picklist.client.view.html" "~/.emacs" "~/workspace/admin.leflair.vn/.gitignore" "~/workspace/admin.leflair.vn/app/modules/helpers/object-ids.js"))
+(setq file-name-history '("~/workspace/8vbeauty/docker-composer.yml" "/home/thanh/.emacs" "/home/thanh/workspace/8vbeauty/abcde" "/home/thanh/workspace/deployIt/abcd.go" "~/workspace/8vbeauty" "/home/thanh/workspace/deployIt/abcd.go" "~/workspace/deployIt" "/home/thanh/workspace/meotrics/core/module/crud.js" "/home/thanh/workspace/Utils/go/main.go" "/usr/share/xfce4/terminal/colorschemes/thanh.theme" "/home/thanh/.emacs" "/home/thanh/workspace/vagrant/README-docker.md" "/home/thanh/workspace/vagrant/script.sh" "~/workspace/vagrant/README.md" "/home/thanh/workspace/vagrant/script.sh" "/home/thanh/workspace/vagrant/Vagrantfile" "/home/thanh/workspace/kubernet101/docker/kubehost/kubenetes/cluster/skeleton/util.sh" "/home/thanh/.profile" "/home/thanh/.emacs" "~/workspace/kubernet101/docker/kubehost/Dockerfile" "/home/thanh/workspace/kubernet101/docker/kubehost/Dockerfilex" "~/workspace/kubernet101/docker/kubehost" "~/workspace/kubernet101/docker" "~/workspace/kubernet101/pod-nginx.yaml" "/home/thanh/workspace/kubernet101/aaaa" "~/workspace/kubernet101" "/home/thanh/.profile" "~/workspace/mydockerbuild/consul/Dockerfile" "/home/thanh/workspace/mydockerbuild/consul/asdlfkjasdf" "~/workspace/mydockerbuild/consul" "~/.emacs" "/home/thanh/.profile" "~/workspace/alpine/alpine" "~/workspace/alpine/Dockerfile" "/home/thanh/workspace/alpine/xxx" "~/workspace/my-wordpress/docker-compose.yml" "/home/thanh/workspace/my-wordpress/x" "/home/thanh/workspace/composetest/docker-compose.yml" "/home/thanh/workspace/composetest/Dockerfile" "/home/thanh/workspace/www.leflair.vn/Dockerfile" "/home/thanh/workspace/composetest/requirements.txt" "/home/thanh/.emacs" "/home/thanh/elisp/dockerfile-mode.el" "/home/thanh/workspace/src/github.com/thanhpk/clousertest.go" "/home/thanh/workspace/src/github.com/thanhpk/defertest/defertest.go" "~/workspace/src/github.com/thanhpk/defertest" "/home/thanh/.bashrc" "/home/thanh/.profile" "/home/thanh/workspace/src/github.com/thanhpk/hackerrank/30days/7array.go" "~/workspace/src/github.com/thanhpk/hackerrank/30days" "~/workspace/src/github.com/thanhpk/hackerrank" "/home/thanh/workspace/src/github.com/thanhpk/5loop/5loop.go" "~/workspace/src/github.com/thanhpk/5loop" "TAGS" "/home/thanh/workspace/src/github.com/thanhpk/classvsinheritance/index.go" "/home/thanh/workspace/src/github.com/thanhpk/bitwiseAnd/index.go" "~/workspace/src/github.com/thanhpk/classvsinheritance" "~/workspace/src/github.com/thanhpk/bitwiseAnd/*scratch*" "TAGS" "/home/thanh/workspace/src/github.com/thanhpk/bitwiseAnd/index.go" "~/workspace/src/github.com/thanhpk/bitwiseAnd" "TAGS" "/home/thanh/workspace/src/github.com/thanhpk/string/string.go" "~/workspace/src/github.com/thanhpk/string" "/home/thanh/workspace/src/github.com/thanhpk/string" "/home/thanh/workspace/src/github.com/thanhpk/hello/hello.go" "~/workspace/src/github.com/thanhpk/hello" "~/workspace/src/github.com/thanhpk" "/etc/environment" "/home/thanh/.emacs" "/usr/local/" "/home/thanh/.emacs" "/usr/share/X11/xorg.conf.d/50-synaptics-my.conf" "/home/thanh/.emacs" "/usr/share/X11/xorg.conf.d/51-synaptics-quirks.conf" "~/workspace/www.leflair.vn/app/controllers/" "~/workspace/www.leflair.vn/app" "~/workspace/www.leflair.vn/" "/home/thanhpk/.emacs" "~/workspace/www.leflair.vn/public" "~/workspace/www.leflair.vn/public/modules/" "~/workspace/www.leflair.vn/public" "~/workspace/www.leflair.vn/public/modules/" "~/workspace/www.leflair.vn/public/modules/sales" "/home/thanhpk/workspace/www.leflair.vn/newrelic.js" "/home/thanhpk/tmp/try3/importdb.sh" "/home/thanhpk/tmp/db.sh" "/home/thanhpk/tmp/removedumplicate.js" "/home/thanhpk/.config/software-center/softwarecenter.cfg" "~/workspace/admin.leflair.vn/public/modules/warehouse-locations" "~/workspace/admin.leflair.vn/public/modules/warehouse-locations/" "~/workspace/admin.leflair.vn/public/modules/picklist" "~/workspace/admin.leflair.vn/app/controllers/" "~/workspace/admin.leflair.vn/app/controllers/warehouse/" "~/workspace/admin.leflair.vn/public/modules/trolleys/views/trolley.edit.client.view.html" "~/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.add.client.controller.js" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/views/trolleys.add.client.view.html" "/home/thanhpk/workspace/admin.leflair.vn/public/modules/trolleys/controllers/trolleys.modal.client.controller.js" "~/workspace/admin.leflair.vn/public/modules/deals" "~/workspace/admin.leflair.vn/public/modules/deals/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/public/modules/core/config/authentication.client.config.js"
-  "authentication.client.config.js"
-  'js2-mode
+  "/home/thanh/workspace/8vbeauty/docker-composer.yml"
+  "docker-composer.yml"
+  'yaml-mode
   '(projectile-mode flycheck-mode)
-  582
+  145
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/public/modules/users/controllers/authentication.client.controller.js"
-  "authentication.client.controller.js"
-  'js2-mode
-  '(projectile-mode flycheck-mode)
-  867
-  '(1 nil)
   nil
+  "8vbeauty"
+  'dired-mode
+  '(projectile-mode)
+  225
+  '(nil nil)
+  t
+  '("/home/thanh/workspace/8vbeauty/")
   nil
-  '((buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/app/routes/sales.server.routes.js"
-  "sales.server.routes.js"
-  'js2-mode
+  "/home/thanh/workspace/www.leflair.vn/bower.json"
+  "bower.json"
+  'js-mode
   '(projectile-mode flycheck-mode)
   1
   '(nil nil)
@@ -54,71 +54,47 @@
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/app/controllers/sales.server.controller.js"
-  "sales.server.controller.js"
-  'js2-mode
+  "/home/thanh/workspace/src/github.com/thanhpk/clousertest.go"
+  "clousertest.go"
+  'go-mode
   '(projectile-mode flycheck-mode)
-  438
-  '(743 nil)
+  558
+  '(490 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (927 1054 3145 1))))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (446 1180 1181 1181 1159 819 819 819 1105 819 819 970))))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/config/express.js"
-  "express.js"
-  'js2-mode
-  '(projectile-mode flycheck-mode)
-  1732
-  '(1002 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (3496 3984 3984))))
-
-(desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/views/sales-list.client.view.html"
-  "sales-list.client.view.html"
-  'html-mode
-  '(projectile-mode flycheck-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/thanhpk/.emacs"
+  "/home/thanh/.emacs"
   ".emacs"
   'emacs-lisp-mode
   '(projectile-mode flycheck-mode)
-  4757
-  '(nil nil)
+  5597
+  '(4402 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
+  '((mark-ring (1))))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/deals/services/deals.client.service.js"
-  "deals.client.service.js"
-  'js2-mode
+  "/home/thanh/workspace/deployIt/abcd.go"
+  "abcd.go"
+  'go-mode
   '(projectile-mode flycheck-mode)
-  1698
+  233
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/deals/deals.client.module.js"
-  "deals.client.module.js"
-  'js2-mode
+  "/home/thanh/.bash_history"
+  ".bash_history"
+  'sh-mode
   '(projectile-mode flycheck-mode)
-  81
+  1
   '(nil nil)
   nil
   nil
@@ -127,123 +103,327 @@
 
 (desktop-create-buffer 208
   nil
-  "deals"
+  "deployIt"
   'dired-mode
   '(projectile-mode)
-  443
+  178
   '(nil nil)
   t
-  '("/home/thanhpk/workspace/admin.leflair.vn/public/modules/deals/")
+  '("/home/thanh/workspace/deployIt/")
   nil
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/admin.leflair.vn/app/controllers/sales.server.controller.js"
-  "sales.server.controller.js"
+  "/home/thanh/workspace/Utils/go/main.go"
+  "main.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  507
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/meotrics/core/module/crud.js"
+  "crud.js"
   'js2-mode
+  '(projectile-mode flycheck-mode)
+  3366
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/src/github.com/thanhpk/string/string.go"
+  "string.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  604
+  '(1294 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (254 253 253 252 1294 1294 1185 216))))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vagrant/README-docker.md"
+  "README-docker.md"
+  'markdown-mode
+  '(projectile-mode flycheck-mode)
+  934
+  '(815 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (676 620 549 154 154 154))))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vagrant/script.sh"
+  "script.sh"
+  'sh-mode
   '(projectile-mode flycheck-mode)
   1
-  '(nil nil)
+  '(596 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (18 445 486 596 101 388 588 157))))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/warehouse-locations/services/location-types.client.service.js"
-  "location-types.client.service.js"
-  'js2-mode
-  '(projectile-mode flycheck-mode)
-  14
-  '(112 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/thanhpk/workspace/admin.leflair.vn/public/modules/warehouse-locations/views/warehouse-locations.modal.client.view.html"
-  "warehouse-locations.modal.client.view.html"
-  'html-mode
-  '(projectile-mode flycheck-mode)
-  1199
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/thanhpk/workspace/admin.leflair.vn/app/controllers/orders/orders.delivery.server.controller.js"
-  "orders.delivery.server.controller.js"
-  'js2-mode
-  '(projectile-mode flycheck-mode)
-  8802
-  '(7347 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (7407))))
-
-(desktop-create-buffer 208
-  "/home/thanhpk/workspace/admin.leflair.vn/app/routes/deals.server.routes.js"
-  "deals.server.routes.js"
-  'js2-mode
+  "/home/thanh/.profile"
+  ".profile"
+  'sh-mode
   '(projectile-mode flycheck-mode)
   722
-  '(612 nil)
+  '(493 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (664 371))))
+  '((mark-ring (408 214 1))))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/config/sales.config.routes.js"
-  "sales.config.routes.js"
-  'js2-mode
-  '(projectile-mode flycheck-mode)
-  197
+  "/home/thanh/workspace/kubernet101/pod-nginx.yaml"
+  "pod-nginx.yaml"
+  'fundamental-mode
+  '(projectile-mode)
+  113
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
+  '((buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/services/sales.client.service.js"
-  "sales.client.service.js"
-  'js2-mode
+  "/home/thanh/workspace/src/github.com/thanhpk/defertest/defertest.go"
+  "defertest.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  116
+  '(2 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/www.leflair.vn/README.md"
+  "README.md"
+  'markdown-mode
   '(projectile-mode flycheck-mode)
   1
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/controllers/sales-list.client.controller.js"
-  "sales-list.client.controller.js"
-  'js2-mode
-  '(projectile-mode flycheck-mode)
-  51
-  '(70 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/thanhpk/workspace/www.leflair.vn/public/modules/sales/controllers/sale.client.controller.js"
-  "sale.client.controller.js"
-  'js2-mode
+  "/home/thanh/workspace/mydockerbuild/consul/Dockerfile"
+  "Dockerfile"
+  'dockerfile-mode
   '(projectile-mode flycheck-mode)
   1
   '(nil nil)
   nil
   nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/alpine/Dockerfile"
+  "Dockerfile"
+  'dockerfile-mode
+  '(projectile-mode flycheck-mode)
+  113
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/src/github.com/thanhpk/hackerrank/30days/7array.go"
+  "7array.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  30
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "30days"
+  'dired-mode
+  '(projectile-mode)
+  255
+  '(nil nil)
+  t
+  '("/home/thanh/workspace/src/github.com/thanhpk/hackerrank/30days/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/my-wordpress/docker-compose.yml"
+  "docker-compose.yml"
+  'fundamental-mode
+  '(projectile-mode)
+  342
+  '(492 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/composetest/app.py"
+  "app.py"
+  'python-mode
+  '(projectile-mode flycheck-mode)
+  79
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/composetest/docker-compose.yml"
+  "docker-compose.yml"
+  'fundamental-mode
+  '(projectile-mode)
+  144
+  '(40 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/composetest/Dockerfile"
+  "Dockerfile"
+  'dockerfile-mode
+  '(projectile-mode flycheck-mode)
+  96
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/composetest/requirements.txt"
+  "requirements.txt"
+  'text-mode
+  '(projectile-mode flycheck-mode)
+  12
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/src/github.com/thanhpk/classvsinheritance/index.go"
+  "index.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  240
+  '(481 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (415 359 359 148))))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/src/github.com/thanhpk/bitwiseAnd/*scratch*"
+  "*scratch*"
+  'lisp-interaction-mode
+  '(projectile-mode flycheck-mode)
+  191
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/elisp/dockerfile-mode.el"
+  "dockerfile-mode.el"
+  'emacs-lisp-mode
+  '(projectile-mode flycheck-mode)
+  4937
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/www.leflair.vn/public/modules/sales/views/sale.client.view.html"
+  "sale.client.view.html"
+  'html-mode
+  '(projectile-mode flycheck-mode)
+  2182
+  '(nil nil)
+  nil
+  nil
   '((buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/etc/apt/sources.list.d/docker.list"
+  "docker.list"
+  'fundamental-mode
+  '(projectile-mode)
+  58
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/src/github.com/thanhpk/hello/hello.go"
+  "hello.go"
+  'go-mode
+  '(overwrite-mode projectile-mode flycheck-mode)
+  44
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix) (overwrite-mode . overwrite-mode-textual))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/opentracing101/main.go"
+  "main.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  2923
+  '(1121 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2196 3277 2151 2657 3329 2363 2011 2011 2011 2011 2011 2011 2011 2011 2011 2011))))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/trash/index.html"
+  "index.html"
+  'html-mode
+  '(projectile-mode flycheck-mode)
+  164
+  '(18 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (15 1))))
 
 (desktop-create-buffer 208
   nil

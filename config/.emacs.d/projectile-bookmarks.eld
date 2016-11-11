@@ -1,1 +1,1 @@
-("~/workspace/www.leflair.vn/" "~/workspace/admin.leflair.vn/" "~/workspace/helm/")
+("~/workspace/sutu/" "~/workspace/www.leflair.vn/" "~/workspace/src/" "~/elisp/" "~/workspace/composetest/" "~/workspace/meotrics/" "~/workspace/Utils/" "~/workspace/src/github.com/eapache/queue/" "~/workspace/admin.leflair.vn/" "~/workspace/helm/")
