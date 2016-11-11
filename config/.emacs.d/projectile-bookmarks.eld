@@ -1,0 +1,1 @@
+("~/workspace/www.leflair.vn/" "~/workspace/admin.leflair.vn/" "~/workspace/helm/")
