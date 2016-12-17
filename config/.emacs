@@ -7,7 +7,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ac-js2-evaluate-calls t)
+ '(ac-js2-evaluate-calls t t)
  '(blink-cursor-mode t)
  '(c-basic-offset 2)
  '(cursor-type (quote hbar))
@@ -19,9 +19,10 @@
  '(js-indent-level 2)
  '(package-selected-packages
 	 (quote
-		(ac-js2 list-packages-ext helm-projectile tide projectile markdown-mode js2-mode helm go-mode)))
+		(go-impl go-errcheck go-autocomplete php-mode magit jade-mode ## ac-js2 list-packages-ext helm-projectile tide projectile markdown-mode js2-mode helm go-mode)))
  '(projectile-global-mode t)
  '(standard-indent 2)
+ '(tab-stop-list (quote (2 4 6 8)))
  '(tab-width 2)
  '(tool-bar-mode nil)
  '(typescript-indent-level 2))
@@ -61,7 +62,7 @@
 
 (add-to-list 'load-path "~/elisp")
 
-(require 'go-mode-autoloads)
+;(require 'go-mode-autoloads)
 (require 'dockerfile-mode)
 (add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
 
@@ -84,7 +85,7 @@
 ;						       :init (setq markdown-command "multimarkdown"))
 ;;; .emacs ends here
 
-(setq gofmt-command "goimports")
+;(setq gofmt-command "goimports")
 
 (require 'ido)
 (ido-mode t)
@@ -154,7 +155,7 @@
 (global-set-key [(meta ?z)] 'delete-backward-char)
 
 (global-hl-line-mode 1)
-(set-face-background 'hl-line "#3e4446")
+(set-face-background 'hl-line "#bababa")
 (set-face-foreground 'highlight nil)
 (put 'dired-find-alternate-file 'disabled nil)
 (add-hook 'dired-mode-hook

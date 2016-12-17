@@ -1,0 +1,16 @@
+/home/thanh/workspace/deploy/sutu/sutu.shop.yml
+/home/thanh/workspace/deploy/sutu/#sutu.shop.yml#
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/default.conf
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/#default.conf#
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/start.sh
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/#start.sh#
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/Dockerfile
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/#Dockerfile#
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/certbot.conf
+/home/thanh/src/github.com/thanhpk/sutu.shop/snginx/#certbot.conf#
+/home/thanh/src/github.com/thanhpk/sutu.shop/docker-compose.dev.yml
+/home/thanh/src/github.com/thanhpk/sutu.shop/#docker-compose.dev.yml#
+/home/thanh/src/github.com/thanhpk/sutu.shop/docker-compose.prod.yml
+/home/thanh/src/github.com/thanhpk/sutu.shop/#docker-compose.prod.yml#
+/home/thanh/workspace/deploy/sutu.shop.yml
+/home/thanh/workspace/deploy/#sutu.shop.yml#

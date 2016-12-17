@@ -2,18 +2,61 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/thanh/src/github.com/thanhpk/" . "sutu.shop/")
+ ("/home/thanh/src/github.com/" . "thanhpk/")
+ ("/home/thanh/src/" . "github.com/")
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/" . "common/")
+ ("/home/thanh/workspace/sutu.shop/ecom/deps/nginx/" . "config/")
+ ("/home/thanh/workspace/sutu.shop/ecom/deps/" . "nginx/")
+ ("/home/thanh/workspace/sutu.shop/ecom/" . "deps/")
+ ("/home/thanh/workspace/sutu.shop/" . "ecom/")
+ ("/home/thanh/workspace/assetup/deps/nginx/" . "config/")
+ ("/home/thanh/workspace/composex/test/" . "overridelink/")
+ ("/home/thanh/workspace/composex/" . "test/")
+ ("/home/thanh/workspace/assetup/deps/" . "nginx/")
+ ("/home/thanh/workspace/assetup/build/images/nginx/" . "config/")
+ ("/home/thanh/workspace/assetup/build/images/" . "nginx/")
+ ("/home/thanh/workspace/assetup/build/" . "images/")
+ ("/home/thanh/workspace/assetup/" . "deps/")
  ("/home/thanh/workspace/meotrics/core/" . "module/")
  ("/home/thanh/workspace/meotrics/" . "core/")
  ("/home/thanh/workspace/Utils/" . "go/")
  ("/usr/share/xfce4/terminal/" . "colorschemes/")
- ("/home/thanh/workspace/" . "meotrics/")
+ ("/home/thanh/workspace/" . "sutu.shop/")
  ("/home/" . "thanh/")
  ("/home/thanh/" . "elisp/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/core/"
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/"
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/db/"
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/"
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/auth/"
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/"
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/web/"
+ "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/"
  "/home/thanh/"
+ "/home/thanh/workspace/sutu.shop/ecom/"
+ "/home/thanh/workspace/sutu.shop/ecom/src/web/"
+ "/home/thanh/workspace/sutu.shop/ecom/ui/"
+ "/home/thanh/workspace/sutu.shop/ecom/deps/nginx/config/"
+ "/home/thanh/workspace/assetup/"
+ "/home/thanh/workspace/assetup/deps/nginx/config/"
+ "/home/thanh/workspace/assetup/deps/nginx/"
+ "/home/thanh/workspace/assetup/src/"
+ "/home/thanh/workspace/composex/"
+ "/home/thanh/workspace/composex/test/"
+ "/home/thanh/workspace/assetup/scripts/"
+ "/home/thanh/workspace/composex/bin/"
+ "/home/thanh/workspace/composex/test/overridelink/"
+ "/home/thanh/workspace/assetup/build/"
+ "/home/thanh/workspace/assetup/build/images/"
+ "/home/thanh/workspace/assetup/build/images/nginx/config/"
+ "/home/thanh/workspace/assetup/build/images/nginx/"
+ "/home/thanh/workspace/assetup/build/images/assetup/"
+ "/home/thanh/workspace/assetup/build/images/assetup/config/"
  "/home/thanh/workspace/8vbeauty/"
  "/home/thanh/workspace/deployIt/"
  "/home/thanh/workspace/Utils/go/"
@@ -40,29 +83,109 @@
 
 ;; ----- ido-work-file-list -----
 (
- ".emacs"
- "abcde"
- "abcd.go"
- "crud.js"
- "main.go"
- "thanh.theme"
- "README-docker.md"
- "Vagrantfile"
- "script.sh"
- ".profile"
+ "product.go"
+ "1324.go"
+ "play.go"
+ "mgo.go"
+ "123"
+ "dff_test.go"
+ "4444"
+ "#user_test.go"
+ "simple_auth_test.go"
+ "simple.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/thanh/workspace/8vbeauty/" (22554 59013 131144 180000) "./" "../" ".#abcde")
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/" (22601 35410 493506 355000) "./" "auth/" "db/" "../" "ecom/")
 
- ("/home/thanh/workspace/" (22554 58966 888626 443000) "mydockerbuild/" "Utils/" "bin/" "./" "www.leflair.vn/" "opentracing101/" "vagrant/" "../" "meotrics/" "alpine/" "trash/" "8vbeauty/" "pkg/" "my-wordpress/" "src/" "kubernet101/" "deployIt/" "composetest/")
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/auth/" (22602 41660 903042 218000) "./" "../" "auth.go")
+
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/db/" (22602 38894 429192 642000) "./" "../" "mgo.go")
+
+ ("/home/thanh/src/" (22602 11324 973562 894000) "gopkg.in/" "local/" "./" "../" "golang.org/" "github.com/")
+
+ ("/home/thanh/src/github.com/" (22600 51519 793354 521000) "klauspost/" "skratchdot/" "./" "imdario/" "mattn/" "iris-contrib/" "geekypanda/" "../" "fsnotify/" "miekg/" "valyala/" "shurcooL/" "fatih/" "kataras/" "thanhpk/")
+
+ ("/home/thanh/src/github.com/thanhpk/" (22600 48485 954119 680000) "./" "sutu.shop/" "../")
+
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/" (22600 49365 128769 970000) "./" "README.md" "../" "docker-compose.prod.yml" "ecom/" "LICENSE" ".git/")
+
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/" (22602 54790 992245 115000) "./" "simple_auth_test.go" "user_test.go" "user.go" "../" "simple_auth.go")
+
+ ("/etc/" (22601 15853 606156 261000) "rc3.d/" "xfce4/" "pki/" "localtime" "thunderbird/" "popularity-contest.conf" "os-release" "insserv/" "hosts.deny" "group-" "hostname" "debian_version" "update-manager/" "zsh_command_not_found" "bluetooth/" "resolv.conf" "shells" "sane.d/" "ifplugd/" "nsswitch.conf" "insserv.conf" "ucf.conf" "rc1.d/" "passwd" "hdparm.conf" "alternatives/" "gshadow" "inputrc" "sensors.d/" "xml/" "kernel/" "java-8-openjdk/" "mail.rc" "dpkg/" "passwd-" "gtk-2.0/" "dhcp/" "gtk-3.0/" "profile.d/" "avahi/" "python2.7/" "rc6.d/" "kerneloops.conf" "fwupd.conf" "skel/" "pam.d/" "adduser.conf" "rc0.d/" "pnm2ppa.conf" "wgetrc" "aliases" "dnsmasq.d/" "obex-data-server/" "opt/" "guest-session/" "modprobe.d/" "init.d/" "services" "bash.bashrc" "ca-certificates.conf.dpkg-old" "python3.5/" "python3/" "fuse.conf" "vtrgb" "dictionaries-common/" "wpa_supplicant/" "speech-dispatcher/" "ld.so.conf.d/" "dtrace.conf" "logrotate.conf" "python3.4/" "console-setup/" "gnome-app-install/" "network/" "networks" "appstream.conf" "daemon.conf" "ld.so.conf" "firefox/" "printcap" "rmt" "gnome-vfs-2.0/" "inxi.conf" "modules-load.d/" "brltty.conf" "libaudit.conf" "vim/" "locale.alias" "quilt.quiltrc" "doc-base/" "selinux/" "updatedb.conf" "mtab.fuselock" "binfmt.d/" "issue.net" "ImageMagick-6/" "security/" "init/" "sysctl.conf" "issue" "lintianrc" "adjtime" "sudoers" "upstart-xsessions" "udisks2/" "apparmor/" "purple/" "udev/" "cron.monthly/" "polkit-1/" "crontab" "cups/" "apparmor.d/" "subgid" "libpaper.d/" "hddtemp.db" "gdb/" "kbd/" "kernel-img.conf" "legal" "aliases.db" "usb_modeswitch.conf" "postfix/" "gnome-system-tools/" "fstab" "vdpau_wrapper.cfg" "sudoers.d/" "pm/" "pam.conf" "sysctl.d/" "pulse/" "timezone" "login.defs" "rc4.d/" "modules" "presage.xml" "cupshelpers/" "ssh/" "newt/" "texmf/" "rsyslog.conf" "cron.weekly/" "usb_modeswitch.d/" "ld.so.cache" "libnl-3/" "UPower/" "libao.conf" "ltrace.conf" "ca-certificates.conf" "samba/" "magic.mime" "sensors3.conf" "logrotate.d/" "gshadow-" "hosts.allow" "NetworkManager/" "gai.conf" "sgml/" "mime.types" "rc5.d/" "checkinstallrc" "rc2.d/" "rpc" "rcS.d/" "insserv.conf.d/" "brltty/" "update-motd.d/" "mailcap" "protocols" "default/" "gtkmathview/" "grub.d/" "gnome/" "cron.hourly/" "xdg/" "rc.local" "ghostscript/" "manpath.config" "groff/" "mke2fs.conf" "hosts" "apm/" "depmod.d/" "subuid-" "initramfs-tools/" "deluser.conf" "sound/" "bonobo-activation/" "xul-ext/" "mysql/" "host.conf" "acpi/" "ufw/" "ssl/" "securetty" "magic" "nanorc" "shadow-" "lsb-release" "ldap/" "bash_completion.d/" "libreoffice/" "mailcap.order" "ca-certificates/" "update-notifier/" "pcmcia/" "X11/" "profile" "environment" "papersize" "lightdm/" "mtab" "fonts/" "gconf/" "subuid" "subgid-" "chatscripts/" "thermald/" "drirc" ".pwd.lock" "gss/" "gimp/" "ppp/" "hp/" "rsyslog.d/" "calendar/" "resolvconf/" "debconf.conf" "nginx/" "at-spi2/" "tmpfiles.d/" "shadow" "locale.gen" "anacrontab" "apt/" "perl/" "bash_completion" "python/" "iproute2/" "cron.d/" "bindresvport.blacklist" "docker/" "vbox/" "group" "cron.daily/" "logcheck/" "dbus-1/" "machine-id" "terminfo/" "systemd/" "brlapi.key" "emacs/" "apport/" ".java/" "../" "./")
+
+ ("/home/thanh/" (22601 10511 570851 401000) ".config/" ".emacs" ".vagrant.d/" ".wget-hsts" ".nano/" "bin/" "./" ".apport-ignore.xml" ".dmrc" "Templates/" "Documents/" ".bash_history" ".face" ".gnupg/" ".yarn/" ".Xdefaults" ".fonts/" ".gnome/" ".cache/" ".node-gyp/" "pr_psargs" ".local/" ".thumbnails/" ".glide/" ".vscode/" ".gphoto/" ".mozilla/" ".gimp-2.8/" ".ssh/" "tmp/" ".xsession-errors" ".node_repl_history" "../" ".touchpad.sh" ".pam_environment" ".gconf/" "Downloads/" ".thunderbird/" "workspace/" ".profile" ".xinputrc" ".npmrc" "elisp/" ".ICEauthority" ".yarn-cache/" ".xsession-errors.old" "Pictures/" "VirtualBox VMs/" ".bash_logout" "Public/" "pkg/" ".pki/" ".npm/" ".emacs.d/" ".shutter/" ".gstreamer-0.10/" ".docker/" ".Xauthority" ".sudo_as_admin_successful" "Videos/" "src/" ".xscreensaver" "Music/" "Desktop/" ".gitconfig" ".dbus/" ".gvfs/" ".bashrc" ".yarn-config/" ".gnome2/")
+
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/" (22600 54757 439044 166000) "ui/" "./" "auth/" "web/" "core/" "../" "deps/" "docker-compose.yml" "docker-compose.dev.yml" "docker-compose.prod.yml" "Dockerfile" ".gitignore" "common/")
+
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/core/" (22600 52800 826275 772000) "./" "../")
+
+ ("/etc/dictionaries-common/" (22501 51474 835464 493000) "./" "words" "../" "ispell-default")
+
+ ("/home/thanh/workspace/" (22600 48052 680494 63000) "composex/" "Utils/" "bin/" "./" "www.leflair.vn/" "opentracing101/" "vagrant/" "../" "meotrics/" "thanhpk.github.io/" "trash/" "pkg/" "vue2-strap/" "my-wordpress/" "src/" "kubernet101/" "deployIt/" "assetup/")
+
+ ("/home/thanh/workspace/src/" (22600 49960 884561 103000) "gopkg.in/" "sourcegraph.com/" "./" "../" ".git/" "golang.org/" "github.com/")
+
+ ("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/web/" (22600 52646 721395 147000) "./" "../" "server.go")
+
+ ("/home/thanh/workspace/sutu.shop/ecom/" (22600 13022 230965 825000) "bin/" "ui/" "./" "../" "deps/" "docker-compose.yml" "docker-compose.dev.yml" "docker-compose.prod.yml" "pkg/" "Dockerfile" ".gitignore" "src/")
+
+ ("/home/thanh/workspace/sutu.shop/ecom/src/web/" (22600 11180 217043 372000) "./" "glide.lock" "../" "vendor/" "iris.go")
+
+ ("/home/thanh/workspace/sutu.shop/ecom/ui/" (22599 59751 531990 650000) "./" "bower_components/" "README.md" "index.html" "static/" ".editorconfig" "../" ".babelrc" "yarn.lock" "package.json" "config/" "build/" "Dockerfile" ".gitignore" "src/" "dist/" "node_modules/")
+
+ ("/home/thanh/workspace/sutu.shop/ecom/deps/nginx/config/" (22599 57594 610135 828000) "./" "sutu.shop.conf" "../" "nginx.conf")
+
+ ("/home/thanh/workspace/sutu.shop/ecom/deps/nginx/" (22599 56990 298009 400000) "./" "README" "../" "docker-compose.yml" "config/" "docker-compose.prod.yml" "Dockerfile")
+
+ ("/home/thanh/workspace/sutu.shop/ecom/deps/" (22599 56990 298009 400000) "./" "../" "nginx/")
+
+ ("/home/thanh/workspace/sutu.shop/" (22599 55943 710003 852000) "./" "README.md" "../" "docker-compose.prod.yml" "ecom/" "LICENSE" ".git/")
+
+ ("/home/thanh/workspace/sutu/" (22559 9762 913092 773000) "./" "README.md" "test/" "../" "yarn.lock" "package.json" "LICENSE" ".git/" ".gitignore" "node_modules/" "index.js")
+
+ ("/home/thanh/workspace/assetup/" (22599 55657 940937 640000) "./" "README.md" "../" "deps/" "docker-compose.yml" "docker-compose.dev.yml" "docker-compose.prod.yml" "LICENSE" ".git/" "Dockerfile" ".gitignore" "src/")
+
+ ("/home/thanh/workspace/assetup/deps/nginx/config/" (22599 54382 579350 362000) "./" "../" "nginx.conf" "assetup.conf")
+
+ ("/home/thanh/workspace/assetup/deps/nginx/" (22599 52769 300689 865000) "./" "README" "../" "docker-compose.yml" "config/" "docker-compose.prod.yml" "Dockerfile")
+
+ ("/home/thanh/workspace/assetup/src/" (22599 53830 156810 189000) "assets/" "./" "index.php" "../" "upload.php")
+
+ ("/home/thanh/workspace/composex/test/overridelink/" (22599 33200 414898 245000) "./" "common.yml" "../" "not_override_deploy_derived.yml" "not_override_deploy.yml" "deploy.yml")
+
+ ("/home/thanh/workspace/composex/" (22599 34495 440709 463000) "bin/" "./" "README.md" "test/" "../" "yarn.lock" "package.json" "LICENSE" ".git/" ".gitignore" "node_modules/" "index.js")
+
+ ("/home/thanh/workspace/composex/test/" (22599 34448 523200 434000) "./" "overrideport/" "v/" "overridelink/" "../" "allservice/" "c.yml" "overridebuild/" "test_include.js" "test1.yml" "test_override.js")
+
+ ("/home/thanh/workspace/assetup/scripts/" (22599 31412 6526 924000) "./" "../" "docker-compose.yml" "build.sh")
+
+ ("/home/thanh/workspace/composex/bin/" (22598 37187 454617 34000) "composex" "./" "../")
+
+ ("/home/thanh/elisp/" (22581 29268 427370 466000) "tests/" "./" "yaml-mode.el" "README.md" "php-mode.el" "vue-mode.el" "skeleton/" "../" "php-mode-test.el" "Changelog.md" "dockerfile-mode.el" "go-mode.el" "LICENSE" "neotree/" "Makefile" ".travis.yml" ".gitignore" "go-mode-autoloads.el")
+
+ ("/home/thanh/workspace/meotrics/core/module/" (22581 25244 27096 670000) "httpapi.js" "segmentresult.js" "./" "crud.js" "valuemgr.js" "actionmgr.ts" "propmgr.js" "referer.ts" "typemgr.js" "../" "crudapi.ts" "ws.ts" "sessionmgr.ts" "location.ts" "trendmgr.ts" "appException.js" "segment.js" "compaignmgr.js" "dashboard.ts" "appmgr.js")
+
+ ("/home/thanh/workspace/8vbeauty/" (22592 56456 295949 393000) "#docker-composer.yml#" "./" "wordpress/" "../" "docker-composer.yml")
+
+ ("/home/thanh/workspace/assetup/deps/" (22597 7671 972208 641000) "./" "../" "nginx/")
+
+ ("/home/thanh/workspace/assetup/build/" (22597 7219 841815 951000) "./" "images/" "../" "docker-compose.yml" "build.sh")
+
+ ("/home/thanh/workspace/assetup/build/images/" (22597 7064 328718 612000) "./" "../" "Dockerfile" "nginx/")
+
+ ("/home/thanh/workspace/assetup/build/images/nginx/config/" (22596 62746 9113 652000) "./" "../" "nginx.conf" "assetup.conf")
+
+ ("/home/thanh/workspace/assetup/build/images/nginx/" (22597 5981 863179 704000) "./" "README" "../" "config/" "Dockerfile")
+
+ ("/home/thanh/workspace/assetup/build/images/assetup/" (22596 62824 81243 165000) "./" "README" "../" "config/" "Dockerfile")
+
+ ("/home/thanh/workspace/assetup/build/images/assetup/config/" (22596 62746 9113 652000) "./" "../" "nginx.conf" "assetup.conf")
 
  ("/home/thanh/workspace/deployIt/" (22554 15237 700216 806000) "./" "../" "abcd.go")
 
  ("/home/thanh/workspace/Utils/go/" (22554 14404 102594 686000) "./" "../" ".gitignore" "main" "main.go")
-
- ("/home/thanh/workspace/meotrics/core/module/" (22527 56185 71735 483000) "httpapi.js" "segmentresult.js" "./" "crud.js" "valuemgr.js" "actionmgr.ts" "propmgr.js" "referer.ts" "typemgr.js" "../" "crudapi.ts" "ws.ts" "sessionmgr.ts" "location.ts" "trendmgr.ts" "appException.js" "segment.js" "compaignmgr.js" "dashboard.ts" "appmgr.js")
 
  ("/home/thanh/workspace/meotrics/core/" (22527 56185 71735 483000) "typings.d.ts" "./" "module/" "app.ts" "README.md" "test/" "../" "clusterapp.js" "asset/" "utils/" "package.json" "config/" ".gitignore" "tsconfig.json")
 
@@ -76,15 +199,11 @@
 
  ("/usr/share/xfce4/" (22501 31747 566952 952000) "weather/" "./" "panel-plugins/" "panel/" "../" "helpers/" "backdrops/" "applications/" "terminal/" "xkb/")
 
- ("/etc/" (22554 10463 878379 986000) "rc3.d/" "xfce4/" "pki/" "localtime" "thunderbird/" "popularity-contest.conf" "os-release" "insserv/" "hosts.deny" "group-" "hostname" "debian_version" "update-manager/" "zsh_command_not_found" "bluetooth/" "resolv.conf" "shells" "sane.d/" "ifplugd/" "nsswitch.conf" "insserv.conf" "ucf.conf" "rc1.d/" "passwd" "hdparm.conf" "alternatives/" "gshadow" "inputrc" "sensors.d/" "xml/" "kernel/" "mail.rc" "dpkg/" "passwd-" "gtk-2.0/" "dhcp/" "gtk-3.0/" "profile.d/" "avahi/" "python2.7/" "rc6.d/" "kerneloops.conf" "fwupd.conf" "skel/" "pam.d/" "adduser.conf" "rc0.d/" "pnm2ppa.conf" "wgetrc" "aliases" "dnsmasq.d/" "obex-data-server/" "opt/" "guest-session/" "modprobe.d/" "init.d/" "services" "bash.bashrc" "ca-certificates.conf.dpkg-old" "python3.5/" "python3/" "fuse.conf" "vtrgb" "dictionaries-common/" "wpa_supplicant/" "speech-dispatcher/" "ld.so.conf.d/" "dtrace.conf" "logrotate.conf" "python3.4/" "console-setup/" "gnome-app-install/" "network/" "networks" "appstream.conf" "ld.so.conf" "firefox/" "printcap" "rmt" "gnome-vfs-2.0/" "inxi.conf" "modules-load.d/" "brltty.conf" "libaudit.conf" "vim/" "locale.alias" "quilt.quiltrc" "doc-base/" "selinux/" "updatedb.conf" "mtab.fuselock" "binfmt.d/" "issue.net" "ImageMagick-6/" "security/" "init/" "sysctl.conf" "issue" "lintianrc" "adjtime" "sudoers" "upstart-xsessions" "udisks2/" "apparmor/" "purple/" "udev/" "cron.monthly/" "polkit-1/" "crontab" "cups/" "apparmor.d/" "subgid" "libpaper.d/" "hddtemp.db" "gdb/" "kbd/" "kernel-img.conf" "legal" "aliases.db" "usb_modeswitch.conf" "postfix/" "gnome-system-tools/" "fstab" "vdpau_wrapper.cfg" "sudoers.d/" "pm/" "pam.conf" "sysctl.d/" "pulse/" "timezone" "login.defs" "rc4.d/" "modules" "presage.xml" "cupshelpers/" "ssh/" "newt/" "texmf/" "rsyslog.conf" "cron.weekly/" "usb_modeswitch.d/" "ld.so.cache" "libnl-3/" "UPower/" "libao.conf" "ltrace.conf" "ca-certificates.conf" "samba/" "magic.mime" "sensors3.conf" "logrotate.d/" "gshadow-" "hosts.allow" "NetworkManager/" "gai.conf" "sgml/" "mime.types" "rc5.d/" "checkinstallrc" "rc2.d/" "rpc" "rcS.d/" "insserv.conf.d/" "brltty/" "update-motd.d/" "mailcap" "protocols" "default/" "gtkmathview/" "grub.d/" "gnome/" "cron.hourly/" "xdg/" "rc.local" "ghostscript/" "manpath.config" "groff/" "mke2fs.conf" "hosts" "apm/" "depmod.d/" "subuid-" "initramfs-tools/" "deluser.conf" "sound/" "bonobo-activation/" "xul-ext/" "mysql/" "host.conf" "acpi/" "ufw/" "ssl/" "securetty" "magic" "nanorc" "shadow-" "lsb-release" "ldap/" "bash_completion.d/" "libreoffice/" "mailcap.order" "ca-certificates/" "update-notifier/" "pcmcia/" "X11/" "profile" "environment" "papersize" "lightdm/" "mtab" "fonts/" "gconf/" "subuid" "subgid-" "chatscripts/" "thermald/" "drirc" ".pwd.lock" "gss/" "gimp/" "ppp/" "hp/" "rsyslog.d/" "calendar/" "resolvconf/" "debconf.conf" "nginx/" "at-spi2/" "tmpfiles.d/" "shadow" "locale.gen" "anacrontab" "apt/" "perl/" "bash_completion" "python/" "iproute2/" "cron.d/" "bindresvport.blacklist" "docker/" "vbox/" "group" "cron.daily/" "logcheck/" "dbus-1/" "machine-id" "terminfo/" "systemd/" "brlapi.key" "emacs/" "apport/" "../" "./")
-
  ("/home/thanh/workspace/vagrant/" (22554 9956 95362 39000) "id_rsa" "./" "#README-docker.md#" "README.md" ".bash_history" "kubenetes/" ".cache/" ".ssh/" "../" "id_rsa.pub" "script.sh" "Vagrantfile" ".vagrant/" "b" "README-docker.md")
 
  ("/usr/share/" (22540 62530 441618 855000) "xfburn/" "base-files/" "xfce4/" "os-prober/" "omf/" "libthai/" "abiword-3.0/" "zsh/" "pastebin.d/" "insserv/" "xfwm4/" "update-manager/" "oneconf/" "mugshot/" "perl5/" "file-roller/" "gettext-0.19.7/" "blueman/" "upstart/" "djvu/" "pnm2ppa/" "lintian/" "software-properties/" "gmusicbrowser/" "myspell/" "zoneinfo/" "pavucontrol/" "gnome-mines/" "xsessions/" "vala/" "gstreamer-0.10/" "libaudio2/" "consolefonts/" "gettext/" "fontconfig/" "mime-info/" "unity/" "aclocal-1.15/" "ppd/" "xml/" "cdbs/" "help-langpack/" "common-licenses/" "desktop-directories/" "dpkg/" "gir-1.0/" "m17n/" "gtk-3.0/" "avahi/" "sysv-rc/" "hplip/" "secureboot/" "docker-engine/" "command-not-found/" "gnome-shell/" "pulseaudio/" "locale/" "enchant/" "grub/" "dh-python/" "gnupg/" "liblangtag/" "distro-info/" "dict/" "link-grammar/" "po-debconf/" "indicators/" "python3/" "help/" "util-macros/" "system-config-printer/" "dictionaries-common/" "consoletrans/" "gnome-software/" "acpi-support/" "webkitgtk-3.0/" "p11-kit/" "orage/" "speech-dispatcher/" "idl/" "gitweb/" "sounds/" "gnumeric/" "libnma/" "xfpanel-switch/" "console-setup/" "apt-xapian-index/" "man/" "iptables/" "mime/" "glib-2.0/" "quilt/" "directfb-1.2.10/" "wayland/" "vim/" "popularity-contest/" "info/" "doc-base/" "readline/" "telepathy/" "bison/" "webkitgtk-1.0/" "mimelnk/" "onboard/" "bash-completion/" "aspell/" "gnupg2/" "java/" "cogl/" "vlc/" "ImageMagick-6/" "ots/" "mysql-common/" "javascript/" "locale-langpack/" "misc/" "farstream/" "xml-core/" "im-config/" "gtksourceview-3.0/" "liblouis/" "liblouisutdml/" "app-install/" "evolution-data-server/" "transmission/" "qtchooser/" "yelp/" "purple/" "polkit-1/" "images/" "color/" "dnsmasq-base/" "debianutils/" "catfish/" "cups/" "virtualbox/" "libexttextcat/" "software-center/" "application-registry/" "icu/" "package-data-downloads/" "yelp-xsl/" "apps/" "intltool-debian/" "gdb/" "nmap/" "poppler/" "lua/" "mythes/" "GConf/" "postfix/" "maven-repo/" "gnome-system-tools/" "file/" "indicator-power/" "nano/" "hwdata/" "vte/" "language-support/" "gnome-2.0/" "alsa/" "dns/" "lightdm-gtk-greeter-settings/" "gtk-engines/" "hyphen/" "git-core/" "pam/" "hunspell/" "libvisual-plugins-0.4/" "xapian-core/" "python-apt/" "simple-scan/" "texmf/" "rsyslog/" "indicator-application/" "libc-bin/" "themes/" "shutter/" "gst-plugins-base/" "locales/" "libsensors4/" "tcltk/" "pam-configs/" "samba/" "librevenge/" "ubuntu-release-upgrader/" "libnm-gtk/" "wallpapers/" "pkgconfig/" "GeoIP/" "grub-gfxpayload-lists/" "debhelper/" "automake-1.15/" "doc/" "menu/" "qt4/" "qt5/" "sgml/" "sgml-base/" "libgphoto2/" "mozilla/" "kde4/" "pyshared/" "xubuntu/" "foo2qpdl/" "adduser/" "brltty/" "desktop-base/" "xgreeters/" "gtkmathview/" "plymouth/" "gnome/" "libparse-debianchangelog-perl/" "build-essential/" "xubuntu-docs/" "presage/" "colord/" "menulibre/" "gcc-5/" "ghostscript/" "groff/" "nm-applet/" "initramfs-tools/" "hal/" "code/" "unity-greeter/" "ufw/" "xfce4-notes-plugin/" "app-info/" "gtk-doc/" "binfmts/" "mobile-broadband-provider-info/" "gnome-control-center/" "linux-sound-base/" "gstreamer-1.0/" "applications/" "usb_modeswitch/" "parole/" "thumbnailers/" "libreoffice/" "aclocal/" "gvfs/" "ca-certificates/" "icons/" "bsd-mailx/" "update-notifier/" "evince/" "tex-common/" "libtool/" "X11/" "backgrounds/" "gdm/" "unattended-upgrades/" "gutenprint/" "ssl-cert/" "netpbm/" "lightdm/" "appdata/" "autoconf/" "fonts/" "gconf/" "pixmaps/" "keyrings/" "language-tools/" "accountsservice/" "pkg-config-dpkghook" "gitk/" "foo2zjs/" "hardening-includes/" "light-locker-settings/" "gcr-3/" "bug/" "awk/" "tabset/" "snmp/" "gtksourceview-2.0/" "ubuntu-drivers-common/" "gimp/" "ppp/" "calendar/" "fcitx/" "resolvconf/" "pygtk/" "Thunar/" "zenity/" "i18n/" "nginx/" "debconf/" "texinfo/" "base-passwd/" "gnome-vpn-properties/" "gnome-background-properties/" "gnome-sudoku/" "fish/" "games/" "perl/" "python/" "language-selector/" "libwacom/" "gnome-online-accounts/" "alsa-base/" "dbus-1/" "pkg-config-crosswrapper" "man-db/" "terminfo/" "systemd/" "emacs/" "system-tools-backends-2.0/" "apport/" "../" "./")
 
  ("/usr/" (22509 15765 108135 489000) "local/" "include/" "bin/" "./" "libx32/" "share/" "lib/" "lib32/" "../" "src/" "sbin/" "games/")
-
- ("/home/thanh/" (22554 12499 43025 393000) ".config/" ".emacs" ".vagrant.d/" ".nano/" "./" ".dmrc" "Templates/" "Documents/" ".bash_history" ".face" ".gnupg/" ".Xdefaults" ".fonts/" ".gnome/" ".cache/" "pr_psargs" ".local/" ".thumbnails/" ".vscode/" ".gphoto/" ".mozilla/" ".gimp-2.8/" ".ssh/" "tmp/" ".xsession-errors" ".node_repl_history" "../" ".touchpad.sh" ".pam_environment" ".gconf/" "Downloads/" ".thunderbird/" "workspace/" ".profile" ".xinputrc" "elisp/" ".ICEauthority" ".xsession-errors.old" "Pictures/" "VirtualBox VMs/" ".bash_logout" "Public/" ".pki/" ".emacs.d/" ".shutter/" ".gstreamer-0.10/" ".Xauthority" ".sudo_as_admin_successful" "Videos/" ".xscreensaver" "Music/" "Desktop/" ".gitconfig" ".dbus/" ".gvfs/" ".bashrc" ".gnome2/")
 
  ("/home/thanh/workspace/mydockerbuild/consul/" (22539 41573 307155 541000) "./" "#Dockerfile#" "../" "Dockerfile")
 
@@ -97,10 +216,6 @@
  ("/home/thanh/workspace/src/github.com/thanhpk/classvsinheritance/" (22532 27741 28622 532000) "index.go" "./" "../" "#index.go#")
 
  ("/home/thanh/workspace/www.leflair.vn/" (22534 16809 115973 170000) "./" "font-sync.sh" "README.md" "app/" ".csslintrc" "bower.json" "translate/" "karma.conf.js" ".jshintrc" "shippable.yml" "server.js" "img-sync.sh" ".editorconfig" ".vscode/" "../" "BrowserStackLocal" "package.json" ".bowerrc" "config/" "public/" "newrelic.js" "gruntfile.js" "build-push.sh" ".git/" "Dockerfile" ".gitignore")
-
- ("/home/thanh/workspace/src/" (22528 42990 433197 525000) "sourcegraph.com/" "./" "../" ".git/" "golang.org/" "github.com/")
-
- ("/home/thanh/elisp/" (22532 26170 283715 262000) "tests/" "./" "README.md" "php-mode.el" "skeleton/" "../" "php-mode-test.el" "Changelog.md" "dockerfile-mode.el" "go-mode.el" "LICENSE" "neotree/" "Makefile" ".travis.yml" ".gitignore" "go-mode-autoloads.el")
 
  ("/home/thanh/workspace/src/github.com/thanhpk/" (22512 30384 70555 987000) "clousertest.go" "5loop/" "./" "hello/" "classvsinheritance/" "string/" "../" "bitwiseAnd/" "defertest/" "hackerrank/")
 
