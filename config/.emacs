@@ -7,19 +7,19 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ac-js2-evaluate-calls t t)
+ '(ac-js2-evaluate-calls t)
  '(blink-cursor-mode t)
  '(c-basic-offset 2)
  '(cursor-type (quote hbar))
  '(fci-rule-color "#efefef")
- '(fill-nobreak-invisible t)
+ '(fill-nobreak-invisible nil)
  '(font-lock-global-modes (quote (not speedbar-mode)))
  '(font-use-system-font t)
  '(indent-tabs-mode t)
  '(js-indent-level 2)
  '(package-selected-packages
 	 (quote
-		(go-impl go-errcheck go-autocomplete php-mode magit jade-mode ## ac-js2 list-packages-ext helm-projectile tide projectile markdown-mode js2-mode helm go-mode)))
+		(multi-term go-impl go-errcheck go-autocomplete php-mode magit jade-mode ## ac-js2 list-packages-ext helm-projectile tide projectile markdown-mode js2-mode helm go-mode)))
  '(projectile-global-mode t)
  '(standard-indent 2)
  '(tab-stop-list (quote (2 4 6 8)))
@@ -45,7 +45,11 @@
  '(js2-function-call ((t (:foreground "deep sky blue"))))
  '(js2-function-param ((t nil)))
  '(js2-object-property ((t (:foreground "dark goldenrod"))))
- '(nobreak-space ((t (:background "magenta")))))
+ '(nobreak-space ((t (:background "magenta"))))
+ '(whitespace-empty ((t nil)))
+ '(whitespace-newline ((t (:foreground "white" :weight normal))))
+ '(whitespace-space ((t (:foreground "black"))))
+ '(whitespace-tab ((t (:foreground "#ffffff")))))
 
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -98,7 +102,7 @@
 
 (defalias 'list-buffers 'ibuffer) ; make ibuffer default
 
-(require 'helm-config)
+;(require 'helm-config)
 
 (projectile-global-mode t)
 
@@ -174,3 +178,11 @@
 
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+
+(autoload 'whitespace-mode           "whitespace" "Toggle whitespace visualization."        t)
+(autoload 'whitespace-toggle-options "whitespace" "Toggle local `whitespace-mode' options." t)
+
+(global-set-key (kbd "C-t") 'select-frame-by-name)
+
+(require 'multi-term)
+(setq multi-term-program "/bin/bash")

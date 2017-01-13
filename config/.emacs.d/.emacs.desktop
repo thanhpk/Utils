@@ -2,102 +2,654 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Dec 10 20:47:15 2016
+;; Created Thu Jan 12 23:19:48 2017
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22604 1891 595602 549000) (desktop . "208") "thanh@K43E" nil nil ((((tool-bar-lines . 0) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (display-type . mono) (background-mode . dark) (cursor-color . "white") (font . "tty") (height . 9) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "0AB6-A9D1-4BE1-9F47") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "simple_auth_test.go" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1249) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (22647 44196 530507 821000) (desktop . "208") "thanh@K43E" nil nil ((((tty-type . "xterm") (tty . "/dev/pts/13") (display-type . color) (background-mode . light) (cursor-color . "black") (client . "Unprintable entity") (frameset--id . "C9AE-BE83-C990-757C") (frameset--mini t) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 61) (width . 266) (modeline . t) (minibuffer . t) (unsplittable) (menu-bar-lines . 1)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 8) (min-pixel-width . 20) (min-pixel-height-ignore . 4) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 2) (min-pixel-width-safe . 4)) hc (pixel-width . 266) (pixel-height . 60) (total-width . 266) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 133) (pixel-height . 60) (total-width . 133) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (buffer "FunButton.vue" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3084) (start . 1633))) (vc (last . t) (pixel-width . 133) (pixel-height . 60) (total-width . 133) (total-height . 60) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 133) (pixel-height . 30) (total-width . 133) (total-height . 30) (normal-height . 0.5) (normal-width . 1.0) (buffer "Product.css" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 138) (start . 1))) (leaf (last . t) (pixel-width . 133) (pixel-height . 30) (total-width . 133) (total-height . 30) (normal-height . 0.5) (normal-width . 1.0) (buffer "Product.jade" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 625) (start . 1))))) (((environment "_=/usr/local/bin/emacsclient" "OLDPWD=/home/thanh" "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1" "LC_TELEPHONE=en_US.UTF-8" "GNOME_KEYRING_PID=" "XDG_SESSION_TYPE=x11" "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-w57xiSUjJF" "GOPATH=/home/thanh" "SESSIONTYPE=" "GDM_LANG=en_US" "XDG_VTNR=7" "GLADE_CATALOG_PATH=:" "WINDOWID=62914563" "SHLVL=1" "GPG_AGENT_INFO=/home/thanh/.gnupg/S.gpg-agent:0:1" "LANG=en_US.UTF-8" "LC_NAME=en_US.UTF-8" "CLUTTER_BACKEND=x11" "XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/thanh" "LANGUAGE=en_US" "XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "ORBIT_SOCKETDIR=/tmp/orbit-thanh" "QT_ACCESSIBILITY=1" "HOME=/home/thanh" "GLADE_PIXMAP_PATH=:" "UPSTART_INSTANCE=" "LC_MONETARY=en_US.UTF-8" "TERMINATOR_UUID=urn:uuid:c16dd47a-a5c4-4039-a892-69f4e6fc7939" "PWD=/home/thanh" "IBUS_DISABLE_SNOOPER=1" "USER=thanh" "QT_STYLE_OVERRIDE=gtk" "GTK_IM_MODULE=" "DESKTOP_SESSION=xubuntu" "XDG_RUNTIME_DIR=/run/user/1000" "XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg" "UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1745" "MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path" "LC_ADDRESS=en_US.UTF-8" "QT_IM_MODULE=" "LC_MEASUREMENT=en_US.UTF-8" "CLUTTER_IM_MODULE=" "UPSTART_EVENTS=started xsession" "GDMSESSION=xubuntu" "XDG_SESSION_DESKTOP=xubuntu" "XAUTHORITY=/home/thanh/.Xauthority" "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh" "XDG_MENU_PREFIX=xfce-" "SESSION=xubuntu" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "GLADE_MODULE_PATH=:" "XMODIFIERS=" "QT4_IM_MODULE=" "IM_CONFIG_PHASE=1" "LC_PAPER=en_US.UTF-8" "LC_NUMERIC=en_US.UTF-8" "PATH=/home/thanh/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/usr/local/node-v4.5.0/bin:/snap/bin" "PAPERSIZE=letter" "SHELL=/bin/bash" "LC_TIME=en_US.UTF-8" "LOGNAME=thanh" "DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path" "INSTANCE=" "GNOME_KEYRING_CONTROL=" "COLORTERM=gnome-terminal" "JOB=dbus" "GTK_OVERLAY_SCROLLING=0" "UPSTART_JOB=startxfce4" "TERM=xterm" "DISPLAY=:0.0" "XDG_CURRENT_DESKTOP=XFCE" "SESSION_MANAGER=local/K43E:@/tmp/.ICE-unix/3683,unix/K43E:/tmp/.ICE-unix/3683" "LC_IDENTIFICATION=en_US.UTF-8" "XDG_SESSION_ID=c3" "XDG_SEAT=seat0") (client . "Unprintable entity") (tty-type . "xterm") (tty . "/dev/pts/13") (display-type . color) (background-mode . light) (cursor-color . "black") (display . ":0.0") (frameset--id . "CEC7-6392-47DC-8D25") (frameset--mini t) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 61) (width . 266) (modeline . t) (minibuffer . t) (unsplittable) (menu-bar-lines . 1)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 8) (min-pixel-width . 20) (min-pixel-height-ignore . 4) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 2) (min-pixel-width-safe . 4)) vc (pixel-width . 266) (pixel-height . 60) (total-width . 266) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 266) (pixel-height . 30) (total-width . 266) (total-height . 30) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 133) (pixel-height . 30) (total-width . 133) (total-height . 30) (normal-height . 1.0) (normal-width . 0.5) (buffer "dropdown.vue" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 76) (start . 1))) (leaf (last . t) (pixel-width . 133) (pixel-height . 30) (total-width . 133) (total-height . 30) (normal-height . 1.0) (normal-width . 0.5) (buffer "dropdownhover.js<src>" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 237) (start . 1)))) (hc (last . t) (pixel-width . 266) (pixel-height . 30) (total-width . 266) (total-height . 30) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 133) (pixel-height . 30) (total-width . 133) (total-height . 30) (normal-height . 1.0) (normal-width . 0.5) (buffer "*magit: vue2-strap" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 96) (start . 1))) (leaf (last . t) (pixel-width . 133) (pixel-height . 30) (total-width . 133) (total-height . 30) (normal-height . 1.0) (normal-width . 0.5) (buffer "package.json" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 47) (start . 1))))) (((tool-bar-lines . 0) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (display-type . mono) (background-mode . dark) (cursor-color . "white") (font . "tty") (height . 9) (width . 10) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "16AE-37A7-6F4C-B3E2") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 8) (total-width . 10) (total-height . 8) (normal-height . 1.0) (normal-width . 1.0) (buffer "FbScript.vue" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 60) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("pass" "auth" "usermg" "imp" "bson.Obj" "user" "ProductT" "_id" "upload" "seach" "inden" "php-mode" "tab-s" "conf" "cons" "conso"))
+(setq search-ring '("hideTime" "private" "hideTime" "DropdownHo" "n" "li " " li" "b" "jSn" "cwb0xya8bzo0ksthx0utua" "d-6" "pro_text" "set-pro_thi" "set-pro_thin" "eot" "pro_thi"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/core/product.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/core/1324.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/play.go" "/home/thanh/src/local/main.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/db/mgo.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/123" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/dff_test.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/4444" "~/src/github.com/thanhpk/sutu.shop/ecom/auth/user_test.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/#user_test.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/simple_auth_test.go" "~/src/github.com/thanhpk/sutu.shop/ecom/auth/simple_auth.go" "~/src/github.com/thanhpk/sutu.shop/ecom/auth/user.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/123" "~/src/github.com/thanhpk/sutu.shop/ecom/common/ecom" "~/src/github.com/thanhpk/sutu.shop/ecom/common/product/product.go" "~/src/github.com/thanhpk/sutu.shop/ecom/common/product" "~/src/github.com/thanhpk/sutu.shop/ecom/common/auth/auth.go" "~/src/github.com/thanhpk/sutu.shop/ecom/common/auth" "~/src/github.com/thanhpk/sutu.shop/ecom/common/common" "~/src/github.com/thanhpk/sutu.shop/ecom/common/auth.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/simple.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/persistent.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/product.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/persistent.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/auth.db.go" "~/src/github.com/thanhpk/sutu.shop/ecom/common" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/db.go" "~/src/github.com/thanhpk/sutu.shop/ecom/auth" "~/src/github.com/thanhpk/sutu.shop/ecom/core" "~/src/github.com/thanhpk/sutu.shop/ecom/web/server.go" "~/src/github.com/thanhpk/sutu.shop/ecom/web" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/iris.go" "/home/thanh/.profile" "/home/thanh/workspace/sutu.shop/ecom/main.go" "/home/thanh/workspace/sutu.shop/ecom/src/web/iris.go" "/home/thanh/workspace/sutu.shop/ecom/.gitignore" "/home/thanh/workspace/sutu.shop/ecom/docker-compose.yml" "/home/thanh/workspace/sutu.shop/ecom/Dockerfile" "/home/thanh/workspace/sutu.shop/ecom/ui/Dockerfile" "~/workspace/sutu.shop/ecom/docker-compose.dev.yml" "/home/thanh/workspace/sutu.shop/ecom/aaa" "~/workspace/sutu.shop/ecom/docker-compose.prod.yml" "/home/thanh/workspace/sutu.shop/ecom/docker-compose.prod.yml4" "/home/thanh/workspace/sutu.shop/ecom/Dockerfile" "/home/thanh/workspace/sutu.shop/ecom/deps/nginx/config/sutu.shop.conf" "/home/thanh/workspace/sutu.shop/ecom/deps/nginx/config/assetup.conf" "/home/thanh/workspace/assetup/.gitignore" "/home/thanh/workspace/assetup/README.md" "/home/thanh/workspace/assetup/deps/nginx/config/assetup.conf" "/home/thanh/workspace/assetup/docker-compose.yml" "/home/thanh/workspace/assetup/deps/nginx/docker-compose.prod.yml" "/home/thanh/workspace/assetup/deps/nginx/Dockerfile" "/home/thanh/workspace/assetup/deps/nginx/docker-compose.prod.yml" "/home/thanh/workspace/assetup/deps/nginx/config/assetup.conf" "/home/thanh/workspace/assetup/deps/nginx/Dockerfile" "/home/thanh/workspace/assetup/deps/nginx/config/assetup.conf" "/home/thanh/workspace/assetup/src/upload.php" "/home/thanh/workspace/assetup/src/index.php" "/home/thanh/workspace/assetup/deps/nginx/config/assetup.conf" "/home/thanh/workspace/composex/package.json" "/home/thanh/workspace/composex/test/test_override.js" "/home/thanh/workspace/composex/test/test_include.js" "/home/thanh/workspace/composex/index.js" "/home/thanh/workspace/assetup/docker-compose.yml" "/home/thanh/workspace/assetup/docker-compose.prod.yml" "/home/thanh/workspace/assetup/scripts/docker-compose.yml" "~/workspace/assetup/deps/nginx/docker-compose.prod.yml" "/home/thanh/workspace/assetup/deps/nginx/docker-compose.prod.yml2" "/home/thanh/workspace/assetup/deps/nginx/docker-compose.yml" "/home/thanh/workspace/assetup/docker-compose.prod.yml" "/home/thanh/workspace/composex/test/test_override.js" "/home/thanh/workspace/composex/package.json" "/home/thanh/workspace/composex/index.js" "/home/thanh/workspace/assetup/docker-compose.yml" "/home/thanh/workspace/composex/README.md" "/home/thanh/workspace/composex/test/test_override.js" "/home/thanh/workspace/composex/test/test_include.js" "/home/thanh/workspace/assetup/docker-compose.yml" "/home/thanh/workspace/composex/package.json" "/home/thanh/workspace/composex/bin/composex" "/home/thanh/workspace/assetup/docker-compose.yml" "/home/thanh/workspace/composex/test/overridelink/deploy.yml" "/home/thanh/workspace/composex/test/overridelink/common.yml" "/home/thanh/workspace/composex/package.json" "/home/thanh/workspace/composex/test/test_override.js" "/home/thanh/workspace/composex/package.json" "/home/thanh/workspace/composex/index.js" "/home/thanh/workspace/composex/test/a.yml" "/home/thanh/workspace/composex/test/test1.yml" "/home/thanh/workspace/composex/.gitignore" "/home/thanh/workspace/composex/index.js" "/home/thanh/workspace/composex/main.py" "/home/thanh/workspace/assetup/deps/nginx/docker-compose.yml" "~/workspace/assetup/docker-compose.yml" "~/workspace/assetup/Dockerfile" "/home/thanh/workspace/assetup/build/images/Dockerfile" "/home/thanh/workspace/assetup/build/docker-compose.yml" "/home/thanh/workspace/assetup/build/build.sh" "/home/thanh/workspace/assetup/build/docker-compose.yml"))
+(setq file-name-history '("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.jade" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.vue" "/home/thanh/workspace/vue2-strap/package.json" "/home/thanh/workspace/vue2-strap/src/src/dropdown.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/node_modules/vue2-strap/dist/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/package.json" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdown.js" "/home/thanh/workspace/vue2-strap/src/src/dropdown.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.css" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/static/.gitignore" "/home/thanh/workspace/vue2-strap/src/.gitignore" "/home/thanh/workspace/vue2-strap/src/webpack.config.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/font.css" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/app.css" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/static/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/.babelrc" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.jade" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/workspace/vue2-strap/src/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/assets/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/workspace/vue2-strap/README.md" "/home/thanh/workspace/vue2-strap/src/README.md" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "~/src/github.com/thanhpk/sutu.shop/ecom/ui2" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/FbScript.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/workspace/vue2-strap/README.md" "/home/thanh/workspace/vue2-strap/src/src/App.vue" "/home/thanh/workspace/vue2-strap/src/src/App.jade" "/home/thanh/workspace/vue2-strap/dist/dropdownhover.vue" "/home/thanh/workspace/vue2-strap/src/src/carousel.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/App.vue" "/home/thanh/workspace/vue2-strap/src/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/FunButton.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Cart.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/dropdownhover.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/dropdownhover.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/node_modules/vue2-strap/dist/dropdownhover.js" "/home/thanh/workspace/vue2-strap/dist/dropdown.js" "/home/thanh/workspace/vue2-strap/dist/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/node_modules/vue2-strap/dist/dropdown.js" "/home/thanh/workspace/vue2-strap/.npmignore"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/ecom/product.go"
-  "product.go"
-  'go-mode
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/FunButton.vue"
+  "FunButton.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  3084
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.js"
+  "Product.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  215
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.jade"
+  "Product.jade"
+  'jade-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  625
+  '(252 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (121 344 635 570 47))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.css"
+  "Product.css"
+  'css-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  138
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js"
+  "Home.js"
+  'js2-mode
   '(projectile-mode flycheck-mode)
-  241
-  '(604 nil)
+  313
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (313 1 311 1))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade"
+  "Home.jade"
+  'jade-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  773
+  '(699 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (699 681 681 680 680 680 680 957 938 1227 1348 1198 1347 1348 1433 1433))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.vue"
+  "Product.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue"
+  "Home.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  140
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js"
+  "dropdownhover.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  237
+  '(243 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (403 379 177 145 145 145 159 1391))))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/src/dropdown.vue"
+  "dropdown.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  76
+  '(167 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (167))))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/package.json"
+  "package.json"
+  'js-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  47
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.vue"
+  "dropdownhover.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  20
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/src/dropdown.js"
+  "dropdown.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  80
+  '(116 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/dist/App.vue"
+  "App.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  2989
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/README.md"
+  "README.md"
+  'markdown-mode
+  '(projectile-mode flycheck-mode auto-revert-mode smerge-mode)
+  1543
+  '(1456 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1166 1471 1565 13 1565 13 1565 1565 1565 13 13 13 13))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.html"
+  "Home.html"
+  'html-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  1
+  '(7 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (554 7 7 7 7 554 1 7 554 554 554 560 1))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.css"
+  "Home.css"
+  'css-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  3430
+  '(3837 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3837 81))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/app.css"
+  "app.css"
+  'css-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  1390
+  '(1376 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos))
+  '((mark-ring (1376 720 1))))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/src/carousel.vue"
+  "carousel.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  10
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html"
+  "index.html"
+  'html-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  80
+  '(130 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(projectile-mode)
+  17
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "static"
+  'dired-mode
+  '(projectile-mode)
+  254
+  '(nil nil)
+  t
+  '("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/.babelrc"
+  ".babelrc"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  37
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "assets"
+  'dired-mode
+  '(projectile-mode)
+  255
+  '(nil nil)
+  t
+  '("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/assets/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/README.md"
+  "README.md"
+  'markdown-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/build/webpack.base.conf.js"
+  "webpack.base.conf.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  965
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/FbScript.vue"
+  "FbScript.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  72
+  '(61 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (49 49 24 24))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/dropdownhover.js"
+  "dropdownhover.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  125
+  '(6602 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/dist/dropdownhover.js"
+  "dropdownhover.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  1
+  '(5551 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/dropdownhover.vue"
+  "dropdownhover.vue"
+  'fundamental-mode
+  '(projectile-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/node_modules/vue2-strap/dist/dropdownhover.js"
+  "dropdownhover.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  132
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/node_modules/vue2-strap/dist/dropdown.js"
+  "dropdown.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  63
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/.npmignore"
+  ".npmignore"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  15
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "vue2-strap"
+  'dired-mode
+  '(projectile-mode)
+  234
+  '(nil nil)
+  t
+  '("/home/thanh/workspace/vue2-strap/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/gulpfile.js"
+  "gulpfile.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  148
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/src/tooltip.vue"
+  "tooltip.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  59
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/vue2-strap/src/src/tooltip.js"
+  "tooltip.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  156
+  '(99 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (76 31 11722 16481 1 11996 1 15790 15790 11751 1439 964))))
+
+(desktop-create-buffer 208
+  nil
+  "src"
+  'dired-mode
+  '(projectile-mode)
+  210
+  '(nil nil)
+  t
+  '("/home/thanh/src/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/main.go"
+  "main.go"
+  'go-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  1
+  '(nil nil)
   nil
   nil
   '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (505 885 1))))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(projectile-mode flycheck-mode)
+  6211
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Category.js"
+  "Category.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  163
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/.babelrc"
+  ".babelrc"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/core/product.go"
   "product.go"
   'go-mode
-  '(projectile-mode flycheck-mode)
+  '(projectile-mode flycheck-mode auto-revert-mode)
   373
-  '(18 nil)
+  '(372 nil)
   nil
   nil
   '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (376 18 376 356 336 173 221 336 196 376 376 372 373))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/node_modules/bootstrap/js/carousel.js"
+  "carousel.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  7142
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/common/auth/auth.go"
-  "auth.go"
-  'go-mode
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/dropdown.js"
+  "dropdown.js"
+  'js2-mode
   '(projectile-mode flycheck-mode)
-  573
-  '(573 nil)
+  2771
+  '(3126 nil)
   nil
   nil
-  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 988 1104 1 100 4703 4704 4704 13 4149 4464 4701 4315 2964 2942 2918))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/BuyLayout.vue"
+  "BuyLayout.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  57
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/user.go"
-  "user.go"
-  'go-mode
-  '(projectile-mode flycheck-mode)
-  546
-  '(14 nil)
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Footer.html"
+  "Footer.html"
+  'html-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  1997
+  '(nil nil)
   nil
   nil
-  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1026 867 807 649 583 397))))
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Cart.css"
+  "Cart.css"
+  'css-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  130
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Cart.vue"
+  "Cart.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  121
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Category.jade"
+  "Category.jade"
+  'jade-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Cart.jade"
+  "Cart.jade"
+  'jade-mode
+  '(projectile-mode flycheck-mode auto-revert-mode)
+  8
+  '(8 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Category.vue"
+  "Category.vue"
+  'fundamental-mode
+  '(projectile-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
   nil
   "core"
   'dired-mode
   '(projectile-mode)
-  200
-  '(nil nil)
+  249
+  '(198 nil)
   t
   '("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/core/")
   nil
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/simple_auth.go"
-  "simple_auth.go"
-  'go-mode
-  '(projectile-mode flycheck-mode)
-  132
-  '(13 nil)
-  nil
-  nil
-  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1054 314 217 530 803 23 1146 117 196))))
-
-(desktop-create-buffer 208
-  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/auth/simple_auth_test.go"
-  "simple_auth_test.go"
-  'go-mode
-  '(projectile-mode flycheck-mode)
-  1249
-  '(1162 nil)
-  nil
-  nil
-  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (831 92 1020 917 447 342 321 244 474 90 134))))
+  '((mark-ring (260 260 246 198 260))))
 
