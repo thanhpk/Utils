@@ -2,27 +2,123 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Feb 20 01:46:43 2017
+;; Created Sun Mar  5 16:09:45 2017
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22697 59411 860773 440000) (desktop . "208") "thanh@K43E" nil nil ((((environment "_=/usr/local/bin/emacsclient" "COLORTERM=gnome-terminal" "XAUTHORITY=/home/thanh/.Xauthority" "LC_NAME=en_US.UTF-8" "LC_TIME=en_US.UTF-8" "LESSCLOSE=/usr/bin/lesspipe %s %s" "XDG_CURRENT_DESKTOP=XFCE" "GTK_IM_MODULE=" "GLADE_CATALOG_PATH=:" "DISPLAY=:0.0" "XDG_RUNTIME_DIR=/run/user/1000" "UPSTART_JOB=startxfce4" "INSTANCE=" "GOPATH=/home/thanh" "LESSOPEN=| /usr/bin/lesspipe %s" "QT4_IM_MODULE=" "XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share" "DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-UF85rnqScc" "LOGNAME=thanh" "XDG_SESSION_DESKTOP=xubuntu" "UPSTART_EVENTS=started xsession" "GTK_OVERLAY_SCROLLING=0" "UPSTART_INSTANCE=" "LANGUAGE=en_US" "XDG_SEAT=seat0" "HOME=/home/thanh" "SHLVL=1" "SESSIONTYPE=" "GDMSESSION=xubuntu" "PAPERSIZE=letter" "IM_CONFIG_PHASE=1" "LC_MEASUREMENT=en_US.UTF-8" "MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path" "GDM_LANG=en_US" "LANG=en_US.UTF-8" "GNOME_KEYRING_PID=" "XMODIFIERS=" "JOB=dbus" "PWD=/home/thanh" "XDG_SESSION_TYPE=x11" "LC_IDENTIFICATION=en_US.UTF-8" "QT_IM_MODULE=" "PATH=/home/thanh/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/usr/local/node-v4.5.0/bin:/snap/bin" "DESKTOP_SESSION=xubuntu" "XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg" "SESSION_MANAGER=local/K43E:@/tmp/.ICE-unix/3717,unix/K43E:/tmp/.ICE-unix/3717" "DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path" "SSH_AUTH_SOCK=/run/user/1000/keyring/ssh" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "GLADE_MODULE_PATH=:" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "QT_ACCESSIBILITY=1" "CLUTTER_BACKEND=x11" "LC_TELEPHONE=en_US.UTF-8" "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:" "USER=thanh" "GNOME_KEYRING_CONTROL=" "UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/3503" "LC_NUMERIC=en_US.UTF-8" "WINDOWID=10485763" "QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1" "TERM=xterm" "SHELL=/bin/bash" "XDG_MENU_PREFIX=xfce-" "GLADE_PIXMAP_PATH=:" "GPG_AGENT_INFO=/home/thanh/.gnupg/S.gpg-agent:0:1" "SESSION=xubuntu" "QT_STYLE_OVERRIDE=gtk" "CLUTTER_IM_MODULE=" "IBUS_DISABLE_SNOOPER=1" "TERMINATOR_UUID=urn:uuid:353923f6-0800-4773-a8b3-f3a1dbd2c481" "LC_MONETARY=en_US.UTF-8" "XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/thanh" "XDG_SESSION_ID=c3" "LC_ADDRESS=en_US.UTF-8" "ORBIT_SOCKETDIR=/tmp/orbit-thanh" "LC_PAPER=en_US.UTF-8" "XDG_VTNR=7") (client . "Unprintable entity") (tty-type . "xterm") (tty . "/dev/pts/12") (display-type . color) (background-mode . dark) (cursor-color . "white") (display . ":0.0") (frameset--id . "5868-443E-8FE4-BEC5") (frameset--mini t) (background-color . "gray20") (foreground-color . "white smoke") (tool-bar-lines . 0) (scroll-bar-background . "gray20") (scroll-bar-foreground . "dark turquoise") (mouse-color . "OrangeRed") (border-color . "gold") (font . "tty") (height . 51) (width . 225) (modeline . t) (minibuffer . t) (unsplittable) (menu-bar-lines . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 225) (pixel-height . 50) (total-width . 225) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (buffer "main.go" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 337) (start . 1))) (((foreground-color . "white smoke") (tool-bar-lines . 0) (menu-bar-lines . 0) (background-color . "gray20") (display-type . mono) (background-mode . dark) (cursor-color . "white") (font . "tty") (height . 11) (width . 10) (modeline . t) (unsplittable) (scroll-bar-background . "gray20") (scroll-bar-foreground . "dark turquoise") (frameset--id . "5643-14AB-AD3E-FA3B") (frameset--mini t) (mouse-color . "OrangeRed") (border-color . "gold") (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 10) (total-width . 10) (total-height . 10) (normal-height . 1.0) (normal-width . 1.0) (buffer "Cart.jade" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 8) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (22715 54745 278401 76000) (desktop . "208") "thanh@K43E" nil nil ((((foreground-color . "unspecified-fg") (tool-bar-lines . 0) (menu-bar-lines . 0) (background-color . "unspecified-bg") (display-type . mono) (background-mode . dark) (cursor-color . "white") (font . "tty") (height . 11) (width . 10) (modeline . t) (unsplittable) (frameset--id . "83B3-9BFD-A8B0-C2E4") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 10) (total-width . 10) (total-height . 10) (normal-height . 1.0) (normal-width . 1.0) (buffer "Category.jade" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("product c" "co" "hideTime" "private" "hideTime" "DropdownHo" "n" "li " " li" "b" "jSn" "cwb0xya8bzo0ksthx0utua" "d-6" "pro_text" "set-pro_thi" "set-pro_thin"))
+(setq search-ring '("go-" "auto-com" "protob" "win" "conte" "context" "net" "product c" "co" "hideTime" "private" "hideTime" "DropdownHo" "n" "li " " li"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/main.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.jade" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.vue" "/home/thanh/workspace/vue2-strap/package.json" "/home/thanh/workspace/vue2-strap/src/src/dropdown.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/node_modules/vue2-strap/dist/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/package.json" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdown.js" "/home/thanh/workspace/vue2-strap/src/src/dropdown.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.css" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/static/.gitignore" "/home/thanh/workspace/vue2-strap/src/.gitignore" "/home/thanh/workspace/vue2-strap/src/webpack.config.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/font.css" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/app.css" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/static/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/.babelrc" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.jade" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/workspace/vue2-strap/src/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/assets/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/workspace/vue2-strap/README.md" "/home/thanh/workspace/vue2-strap/src/README.md" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "~/src/github.com/thanhpk/sutu.shop/ecom/ui2" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/FbScript.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/workspace/vue2-strap/README.md" "/home/thanh/workspace/vue2-strap/src/src/App.vue" "/home/thanh/workspace/vue2-strap/src/src/App.jade" "/home/thanh/workspace/vue2-strap/dist/dropdownhover.vue" "/home/thanh/workspace/vue2-strap/src/src/carousel.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/App.vue" "/home/thanh/workspace/vue2-strap/src/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/FunButton.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Cart.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/dropdownhover.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/dropdownhover.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/node_modules/vue2-strap/dist/dropdownhover.js" "/home/thanh/workspace/vue2-strap/dist/dropdown.js" "/home/thanh/workspace/vue2-strap/dist/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/node_modules/vue2-strap/dist/dropdown.js"))
+(setq file-name-history '("/home/thanh/src/bitbucket.org/subiz/clientmgr/repo/kafka_subscriber.go" "~/src/bitbucket.org/subiz/servicespec/proto/client/" "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/client/clientmgr.proto" "~/src/bitbucket.org/subiz/servicespec/proto/common/auth/" "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/common/auth/auth.proto" "/home/thanh/src/bitbucket.org/subiz/clientmgr/model/clientmgt.go" "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/client/clientmgr.proto" "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/scope/scopemgr.proto" "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/scope/scopemgr.pb.go" "/home/thanh/src/bitbucket.org/subiz/servicesspec/proto/client/clientmgr.proto" "/home/thanh/src/bitbucket.org/subiz/servicesspec/proto/common/auth/auth.proto" "~/workspace/Utils/js/closureinsideclosure.js" "/home/thanh/.emacs" "/home/thanh/workspace/Utils/js/leak.js" "~/src/github.com/thanhpk/grpc/hello" "~/src/github.com/thanhpk/grpc/" "~/src/github.com/thanhpk/grpc/server" "~/src/github.com/thanhpk/grpc/client" "~/src/github.com/thanhpk/grpc/hello.proto" "/home/thanh/src/github.com/thanhpk/grpc/client.go" "/home/thanh/src/github.com/thanhpk/grpc/server.go" "/home/thanh/src/github.com/thanhpk/grpc/route_guild.proto" "/ssh:root@sutu.shop:/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/main.go" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.jade" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Product.vue" "/home/thanh/workspace/vue2-strap/package.json" "/home/thanh/workspace/vue2-strap/src/src/dropdown.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/node_modules/vue2-strap/dist/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/package.json" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdown.js" "/home/thanh/workspace/vue2-strap/src/src/dropdown.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.css" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.js" "/home/thanh/workspace/vue2-strap/src/src/dropdownhover.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/static/.gitignore" "/home/thanh/workspace/vue2-strap/src/.gitignore" "/home/thanh/workspace/vue2-strap/src/webpack.config.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/font.css" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/static/app.css" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/static/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/.babelrc" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.jade" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/workspace/vue2-strap/src/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.jade" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/App.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui2/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/assets/" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/" "~/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "/home/thanh/workspace/vue2-strap/README.md" "/home/thanh/workspace/vue2-strap/src/README.md" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/App.vue" "~/src/github.com/thanhpk/sutu.shop/ecom/ui2" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/FbScript.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/main.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.vue" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/index.html" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/build/webpack.base.conf.js" "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Home.jade"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/main.go"
-  "main.go"
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Category.jade"
+  "Category.jade"
+  'jade-mode
+  '(projectile-mode auto-revert-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/client/clientmgr.proto"
+  "clientmgr.proto"
+  'protobuf-mode
+  '(abbrev-mode projectile-mode auto-revert-mode flycheck-mode)
+  373
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/clientmgr/repo/kafka_subscriber.go"
+  "kafka_subscriber.go"
   'go-mode
   '(projectile-mode auto-revert-mode flycheck-mode)
-  337
+  961
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/clientmgr/repo/mongo_client_repo.go"
+  "mongo_client_repo.go"
+  'go-mode
+  '(projectile-mode auto-revert-mode flycheck-mode)
+  5356
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/common/auth/auth.proto"
+  "auth.proto"
+  'protobuf-mode
+  '(abbrev-mode projectile-mode auto-revert-mode flycheck-mode smerge-mode)
+  1524
+  '(217 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (217 617 44 44 44))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/scope/scopemgr.proto"
+  "scopemgr.proto"
+  'protobuf-mode
+  '(abbrev-mode projectile-mode auto-revert-mode flycheck-mode)
+  927
+  '(741 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (784 108 566 293 36 566))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/clientmgr/model/clientmgt.go"
+  "clientmgt.go"
+  'go-mode
+  '(projectile-mode auto-revert-mode flycheck-mode)
+  3222
+  '(3281 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/servicesspec/proto/common/auth/auth.proto"
+  "auth.proto"
+  'fundamental-mode
+  '(projectile-mode)
+  379
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/bitbucket.org/subiz/servicespec/proto/scope/scopemgr.pb.go"
+  "scopemgr.pb.go"
+  'go-mode
+  '(projectile-mode auto-revert-mode flycheck-mode)
+  1
   '(nil nil)
   nil
   nil
@@ -34,11 +130,107 @@
   "Cart.jade"
   'jade-mode
   '(projectile-mode auto-revert-mode flycheck-mode)
-  8
+  10
   '(8 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/Utils/js/closureinsideclosure.js"
+  "closureinsideclosure.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  231
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/workspace/Utils/js/leak.js"
+  "leak.js"
+  'js2-mode
+  '(projectile-mode flycheck-mode)
+  2086
+  '(2309 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2281 2297 1531 2246 1704 2237 2074 1924 1924 2503 1924 1825 1259 1259 1057 1057))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/google.golang.org/grpc/examples/helloworld/greeter_server/main.go"
+  "main.go"
+  'go-mode
+  '(projectile-mode auto-revert-mode flycheck-mode)
+  1594
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/grpc/client.go"
+  "client.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  111
+  '(177 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (235 194 32 192 193 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/google.golang.org/grpc/examples/helloworld/greeter_client/main.go"
+  "main.go"
+  'go-mode
+  '(projectile-mode auto-revert-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/grpc/server.go"
+  "server.go"
+  'go-mode
+  '(projectile-mode flycheck-mode)
+  530
+  '(521 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (167 167 640 522 521 521 99 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/grpc/hello.proto"
+  "hello.proto"
+  'fundamental-mode
+  '(projectile-mode)
+  2
+  '(2 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2 1))))
+
+(desktop-create-buffer 208
+  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/main.go"
+  "main.go"
+  'go-mode
+  '(projectile-mode auto-revert-mode flycheck-mode)
+  1374
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -486,30 +678,6 @@
   '((mark-ring (76 31 11722 16412 1 11996 1 15790 15790 11751 1439 964))))
 
 (desktop-create-buffer 208
-  nil
-  "src"
-  'dired-mode
-  '(projectile-mode)
-  210
-  '(nil nil)
-  t
-  '("/home/thanh/src/")
-  nil
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/thanh/.emacs"
-  ".emacs"
-  'emacs-lisp-mode
-  '(projectile-mode flycheck-mode)
-  6449
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
   "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Category.js"
   "Category.js"
   'js2-mode
@@ -567,17 +735,5 @@
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/thanh/src/github.com/thanhpk/sutu.shop/ecom/ui/src/components/Category.jade"
-  "Category.jade"
-  'jade-mode
-  '(projectile-mode auto-revert-mode flycheck-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 

@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <17/02/18 17:20:50 /home/thanh/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <17/02/26 23:18:29 /home/thanh/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -15,18 +15,11 @@
 	("perl-cwd-realpath" t)
 	("perl" "\\perl")
 	("id" "/usr/bin/id")
+	("gid-integer" 0)
 	("gid-string" "root")
 	("readlink" "\\readlink")
-	("gid-integer" 0)
-	("uid-integer" 0)
-	("~" "/.emacs.desktop.lock")
-	("ls" "/bin/ls --color=never")
-	("ls-dired" t)
-	("trash" nil)
 	("git" "\\git")
-	("tmpdir" "/tmp")
-	("touch-t" t)
-	("touch" "\\touch")
-	("ln" "\\ln"))
+	("env-u-option" t)
+	("~" "/root"))
  (["scp" nil "ssh" nil nil]
 	nil))

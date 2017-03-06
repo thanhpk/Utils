@@ -27,7 +27,7 @@
  '(js-indent-level 2)
  '(package-selected-packages
 	 (quote
-		(dired-rainbow rainbow-mode web-mode multi-term go-impl go-errcheck go-autocomplete php-mode magit jade-mode ## ac-js2 list-packages-ext helm-projectile tide projectile markdown-mode js2-mode helm go-mode)))
+		(go-complete protobuf-mode dired-rainbow rainbow-mode web-mode multi-term go-impl go-errcheck go-autocomplete php-mode magit jade-mode ## ac-js2 list-packages-ext helm-projectile tide projectile markdown-mode js2-mode helm go-mode)))
  '(projectile-global-mode t)
  '(standard-indent 2)
  '(tab-stop-list (quote (2 4 6 8)))
@@ -191,8 +191,9 @@
 (setq show-paren-delay 0)
 
 (windmove-default-keybindings 'meta)
-(global-set-key (kbd "C-c h")  'windmove-left)
+(global-set-key (kbd "C-c h") 'windmove-left)
 (global-set-key (kbd "C-c l") 'windmove-right)
-(global-set-key (kbd "C-c k")    'windmove-up)
-(global-set-key (kbd "C-c j")  'windmove-down)
+(global-set-key (kbd "C-c k") 'windmove-up)
+(global-set-key (kbd "C-c j") 'windmove-down)
 
+(winner-mode 1)
